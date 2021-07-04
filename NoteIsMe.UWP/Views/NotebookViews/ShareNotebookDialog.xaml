@@ -1,0 +1,43 @@
+﻿<ContentDialog
+    x:Class="NoteIsMe.UWP.Views.NotebookViews.ShareNotebookDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NoteIsMe.UWP.Views.NotebookViews"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Uid="sharedlg"
+    Title="Share Notebook"
+    PrimaryButtonText="Share"
+    SecondaryButtonText="Cancel"
+    PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
+    SecondaryButtonClick="ContentDialog_SecondaryButtonClick">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Uid="sharedlg_email" Text="Email" Style="{ThemeResource SubtitleTextBlockStyle}" Grid.Row="0"/>
+        <TextBlock x:Name="emailToShareNotebookError" Text="Email Field cannot be left empty." Grid.Row="1" Margin="10" Visibility="Collapsed" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Red"/>
+        <TextBox x:Name="emailToShareNotebook" Grid.Row="2" Margin="0 10 0 0"/>
+
+        <TextBlock x:Uid="sharedlg_view" Text="Allow Viewing Sketch/Note"  Grid.Row="3"  Style="{ThemeResource SubtitleTextBlockStyle}" Margin="0 10 0 0"/>
+        <ToggleSwitch x:Uid="sharedlg_view2" x:Name="viewSwitch" Grid.Row="4" OffContent="Disabled" OnContent="Enabled"/>
+
+        <TextBlock  x:Uid="sharedlg_edit" Text="Allow Sketch/Note Edit"  Grid.Row="5"  Style="{ThemeResource SubtitleTextBlockStyle}" Margin="0 10 0 0"/>
+        <ToggleSwitch x:Uid="sharedlg_edit2" x:Name="editSwitch" Grid.Row="6" OffContent="Disabled" OnContent="Enabled"/>
+
+        <TextBlock x:Uid="sharedlg_share" Text="Allow Sharing Notebook"  Grid.Row="7"  Style="{ThemeResource SubtitleTextBlockStyle}" Margin="0 10 0 0"/>
+        <ToggleSwitch x:Uid="sharedlg_share2" x:Name="shareSwitch" Grid.Row="8" OffContent="Disabled" OnContent="Enabled"/>
+        
+    </Grid>
+</ContentDialog>

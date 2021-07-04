@@ -1,0 +1,69 @@
+﻿<Page
+    x:Class="NoteIsMe.UWP.Views.AdminViews.AdminMainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NoteIsMe.UWP.Views.AdminViews"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:telerikChart="using:Telerik.UI.Xaml.Controls.Chart"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <TextBlock x:Uid="admin_title" Text="Admin Management Panel" Style="{ThemeResource HeaderTextBlockStyle}" Grid.Row="0" Margin="25 10"/>
+
+        <TextBlock  x:Uid="admin_engwarn" Text="Individual Manaeg Pages are only in English." Style="{ThemeResource SubtitleTextBlockStyle}" Margin="10" Grid.Row="1"/>
+        <StackPanel Margin="25" Orientation="Horizontal" Grid.Row="2">
+            <Button x:Name="userDataGrid" Margin="10 5" Content="Manage Users" Click="userDataGrid_Click" />
+            <Button x:Name="folderDataGrid" Margin="10 5" Content="Manage Folders" Click="folderDataGrid_Click" />
+            <Button x:Name="notebookDataGrid" Margin="10 5" Content="Manage Notebooks" Click="notebookDataGrid_Click" />
+            <Button x:Name="tagDataGrid" Margin="10 5" Content="Manage Tags" Click="tagDataGrid_Click" />
+            <Button x:Name="groupDataGrid" Margin="10 5" Content="Manage Groups" Click="groupDataGrid_Click" />
+            <Button x:Name="noteDataGrid" Margin="10 5" Content="Manage Notes" Click="noteDataGrid_Click" />
+            <Button x:Name="sketchDataGrid" Margin="10 5" Content="Manage Sketches" Click="sketchDataGrid_Click"/>
+        </StackPanel>
+        <TextBlock  x:Uid="admin_notedit" Text="Fields marked with (L) in manage pages are not editable." Style="{ThemeResource SubtitleTextBlockStyle}" Margin="10 20" Grid.Row="3"/>
+        <TextBlock  x:Uid="admin_edit" Text="For other, triple click a cell to edit and hit Enter to save." Style="{ThemeResource BaseTextBlockStyle}" FontWeight="SemiBold" Margin="10 5" Grid.Row="4"/>
+
+
+        <TextBlock x:Uid="admin_stat" Text="General Statistics" Style="{ThemeResource TitleTextBlockStyle}" Margin="10 20" Grid.Row="5"/>
+        <telerikChart:RadCartesianChart x:Name="adminCharts" Grid.Row="6" Margin="25 15 25 150">
+            <telerikChart:RadCartesianChart.HorizontalAxis>
+                <telerikChart:CategoricalAxis/>
+            </telerikChart:RadCartesianChart.HorizontalAxis>
+            <telerikChart:RadCartesianChart.VerticalAxis>
+                <telerikChart:LinearAxis/>
+            </telerikChart:RadCartesianChart.VerticalAxis>
+
+            <telerikChart:BarSeries ShowLabels="True">
+                <telerikChart:BarSeries.LabelDefinitions>
+                    <telerikChart:ChartSeriesLabelDefinition HorizontalAlignment="Center" VerticalAlignment="Top">
+                        <telerikChart:ChartSeriesLabelDefinition.Template>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding barItemList.Count}" Foreground="White"/>
+                            </DataTemplate>
+                        </telerikChart:ChartSeriesLabelDefinition.Template>
+                    </telerikChart:ChartSeriesLabelDefinition>
+                </telerikChart:BarSeries.LabelDefinitions>
+
+                <telerikChart:BarSeries.CategoryBinding>
+                    <telerikChart:PropertyNameDataPointBinding PropertyName="Type"/>
+                </telerikChart:BarSeries.CategoryBinding>
+                <telerikChart:BarSeries.ValueBinding>
+                    <telerikChart:PropertyNameDataPointBinding PropertyName="Count"/>
+                </telerikChart:BarSeries.ValueBinding>
+            </telerikChart:BarSeries>
+        </telerikChart:RadCartesianChart>
+    </Grid>
+</Page>

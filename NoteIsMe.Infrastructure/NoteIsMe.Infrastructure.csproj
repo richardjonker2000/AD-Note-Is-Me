@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20201127105222_test1.cs" />
+    <Compile Remove="Migrations\20201127105222_test1.Designer.cs" />
+    <Compile Remove="Migrations\20201127214232_initial.cs" />
+    <Compile Remove="Migrations\20201127214232_initial.Designer.cs" />
+    <Compile Remove="Migrations\20201127214745_initial migration.cs" />
+    <Compile Remove="Migrations\20201127214745_initial migration.Designer.cs" />
+    <Compile Remove="Migrations\20201127223500_many2many_compositekeys.cs" />
+    <Compile Remove="Migrations\20201127223500_many2many_compositekeys.Designer.cs" />
+    <Compile Remove="Migrations\20201127224015_initial.cs" />
+    <Compile Remove="Migrations\20201127224015_initial.Designer.cs" />
+    <Compile Remove="Migrations\20201128004053_initial-migration.cs" />
+    <Compile Remove="Migrations\20201128004053_initial-migration.Designer.cs" />
+    <Compile Remove="Migrations\20201128004513_initial-migration.cs" />
+    <Compile Remove="Migrations\20201128004513_initial-migration.Designer.cs" />
+    <Compile Remove="Migrations\20201128004939_initial-migration.cs" />
+    <Compile Remove="Migrations\20201128004939_initial-migration.Designer.cs" />
+    <Compile Remove="Migrations\20201128194609_initial.cs" />
+    <Compile Remove="Migrations\20201128194609_initial.Designer.cs" />
+    <Compile Remove="Migrations\20201206183442_initial.cs" />
+    <Compile Remove="Migrations\20201206183442_initial.Designer.cs" />
+    <Compile Remove="Migrations\20201222101143_richardInitial.cs" />
+    <Compile Remove="Migrations\20201222101143_richardInitial.Designer.cs" />
+    <Compile Remove="Migrations\20210109113317_mymig.cs" />
+    <Compile Remove="Migrations\20210109113317_mymig.Designer.cs" />
+    <Compile Remove="Migrations\20210109113636_InitialCreate.cs" />
+    <Compile Remove="Migrations\20210109113636_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20210114194535_changed to note string.cs" />
+    <Compile Remove="Migrations\20210114194535_changed to note string.Designer.cs" />
+    <Compile Remove="Migrations\20210114225109_note-changes.cs" />
+    <Compile Remove="Migrations\20210114225109_note-changes.Designer.cs" />
+    <Compile Remove="Migrations\20210123175659_NOlock.cs" />
+    <Compile Remove="Migrations\20210123175659_NOlock.Designer.cs" />
+    <Compile Remove="Migrations\20210127011106_unique-email.cs" />
+    <Compile Remove="Migrations\20210127011106_unique-email.Designer.cs" />
+    <Compile Remove="Migrations\20210129232050_final.cs" />
+    <Compile Remove="Migrations\20210129232050_final.Designer.cs" />
+    <Compile Remove="Migrations\20210129232925_final.cs" />
+    <Compile Remove="Migrations\20210129232925_final.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NoteIsMe.Domain\NoteIsMe.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

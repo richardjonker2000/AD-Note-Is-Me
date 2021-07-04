@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addfld_cancel.Label" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="addfld_save.Label" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="addfolder_title.Text" xml:space="preserve">
+    <value>Aggiungi nuova cartella</value>
+  </data>
+  <data name="addfolder_titlefc.Header" xml:space="preserve">
+    <value>Categoria cartelle</value>
+  </data>
+  <data name="addfolder_titlefc.PlaceholderText" xml:space="preserve">
+    <value>Seleziona categoria cartella</value>
+  </data>
+  <data name="addfolder_titlenb.Header" xml:space="preserve">
+    <value>Nome cartella</value>
+  </data>
+  <data name="addnotebook2folder.PrimaryButtonText" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="addnotebook2folder.SecondaryButtonText" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="addnotebook2folder.Title" xml:space="preserve">
+    <value>Blocco appunti</value>
+  </data>
+  <data name="addnotebook2folder_nb.Header" xml:space="preserve">
+    <value>Blocco appunti</value>
+  </data>
+  <data name="addnotebook2folder_nb.PlaceholderText" xml:space="preserve">
+    <value>Selezionare un blocco appunti</value>
+  </data>
+  <data name="addnote_tag.PrimaryButtonText" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="addnote_tag.SecondaryButtonText" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="addnote_tag.Title" xml:space="preserve">
+    <value>Aggiungi nota al tag</value>
+  </data>
+  <data name="addsketch_tag.PrimaryButtonText" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="addsketch_tag.SecondaryButtonText" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="addsketch_tag.Title" xml:space="preserve">
+    <value>Aggiungi schizzo per contrassegnare</value>
+  </data>
+  <data name="addtagpage_cancel.Content" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="addtagpage_color.Text" xml:space="preserve">
+    <value>Selezionare il colore Tag :</value>
+  </data>
+  <data name="addtagpage_name.Header" xml:space="preserve">
+    <value>Nome tag</value>
+  </data>
+  <data name="addtagpage_save.Content" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="addtagpage_title.Text" xml:space="preserve">
+    <value>Aggiungi nuovo tag</value>
+  </data>
+  <data name="admin_edit.Text" xml:space="preserve">
+    <value>Per altri, fare triplo clic su una cella per modificare e premere INVIO per salvare.</value>
+  </data>
+  <data name="admin_engwarn.Text" xml:space="preserve">
+    <value>Le singole pagine di gestione sono solo in inglese.</value>
+  </data>
+  <data name="admin_notedit.Text" xml:space="preserve">
+    <value>I campi contrassegnati con (L) nelle pagine di gestione non sono modificabili.</value>
+  </data>
+  <data name="admin_stat.Text" xml:space="preserve">
+    <value>Statistiche generali</value>
+  </data>
+  <data name="admin_title.Text" xml:space="preserve">
+    <value>Pannello di gestione dell'amministratore</value>
+  </data>
+  <data name="changenbdg_place.PlaceholderText" xml:space="preserve">
+    <value>Selezionare Blocco appunti</value>
+  </data>
+  <data name="changenotebookdg.PrimaryButtonText" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="changenotebookdg.SecondaryButtonText" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="changenotebookdg.Title" xml:space="preserve">
+    <value>Cambia blocco appunti</value>
+  </data>
+  <data name="findboxlabel.Text" xml:space="preserve">
+    <value>Trovare:</value>
+  </data>
+  <data name="foldermain_delete.Label" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="foldermain_edit.Label" xml:space="preserve">
+    <value>Modificare</value>
+  </data>
+  <data name="foldermain_newfld.Text" xml:space="preserve">
+    <value>Aggiungi nuova cartella</value>
+  </data>
+  <data name="foldermain_title.Text" xml:space="preserve">
+    <value>Cartelle personali</value>
+  </data>
+  <data name="folderview_title.Text" xml:space="preserve">
+    <value>Aggiungi blocco appunti</value>
+  </data>
+  <data name="home_nb.Text" xml:space="preserve">
+    <value>Blocchi appunti</value>
+  </data>
+  <data name="home_note.Text" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="home_sketch.Text" xml:space="preserve">
+    <value>Schizzi</value>
+  </data>
+  <data name="home_welcome.Text" xml:space="preserve">
+    <value>Benvenuti in NoteIsMe   </value>
+  </data>
+  <data name="login_email.Header" xml:space="preserve">
+    <value>La tua email:</value>
+  </data>
+  <data name="login_forgot.Text" xml:space="preserve">
+    <value>Password dimenticata?</value>
+  </data>
+  <data name="login_loginbtn.Content" xml:space="preserve">
+    <value>Accedi</value>
+  </data>
+  <data name="login_noaccount.Text" xml:space="preserve">
+    <value>Non hai un account?</value>
+  </data>
+  <data name="login_password.Header" xml:space="preserve">
+    <value>La tua password:</value>
+  </data>
+  <data name="login_register.Content" xml:space="preserve">
+    <value>Registra ora</value>
+  </data>
+  <data name="login_reset.Content" xml:space="preserve">
+    <value>Reimposta password</value>
+  </data>
+  <data name="login_title.Text" xml:space="preserve">
+    <value>Accedere per continuare</value>
+  </data>
+  <data name="mainpage_admin.Content" xml:space="preserve">
+    <value>Pannello di amministrazione</value>
+  </data>
+  <data name="mainpage_folder.Content" xml:space="preserve">
+    <value>Cartella</value>
+  </data>
+  <data name="mainpage_home.Content" xml:space="preserve">
+    <value>Home page</value>
+  </data>
+  <data name="mainpage_login.Content" xml:space="preserve">
+    <value>Accedi</value>
+  </data>
+  <data name="mainpage_logout.Content" xml:space="preserve">
+    <value>Disconnetti</value>
+  </data>
+  <data name="mainpage_newnote.Content" xml:space="preserve">
+    <value>Nuova nota</value>
+  </data>
+  <data name="mainpage_note.Content" xml:space="preserve">
+    <value>Nota musicale</value>
+  </data>
+  <data name="mainpage_notebook.Content" xml:space="preserve">
+    <value>Blocco appunti</value>
+  </data>
+  <data name="mainpage_profile.Content" xml:space="preserve">
+    <value>Profilo personale</value>
+  </data>
+  <data name="mainpage_sketch.Content" xml:space="preserve">
+    <value>Schizzo</value>
+  </data>
+  <data name="mainpage_tag.Content" xml:space="preserve">
+    <value>Contrassegno</value>
+  </data>
+  <data name="nf_add" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="nf_cancel" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="nf_name.Header" xml:space="preserve">
+    <value>Titolo</value>
+  </data>
+  <data name="nf_title.Text" xml:space="preserve">
+    <value>Creare/aggiornare un blocco appunti</value>
+  </data>
+  <data name="nm1.Text" xml:space="preserve">
+    <value>Titolo</value>
+  </data>
+  <data name="nm2.Text" xml:space="preserve">
+    <value>Creato da</value>
+  </data>
+  <data name="nm3.Text" xml:space="preserve">
+    <value>Condiviso con</value>
+  </data>
+  <data name="nm4.Text" xml:space="preserve">
+    <value>Azioni</value>
+  </data>
+  <data name="nm_newnb.Text" xml:space="preserve">
+    <value>Aggiungere un nuovo blocco appunti</value>
+  </data>
+  <data name="nm_title.Text" xml:space="preserve">
+    <value>Gestire i blocchi appunti</value>
+  </data>
+  <data name="noteform_cancel.Text" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="noteform_notebook.Text" xml:space="preserve">
+    <value>Blocchi appunti</value>
+  </data>
+  <data name="noteform_notetext.Text" xml:space="preserve">
+    <value>Testo nota</value>
+  </data>
+  <data name="noteform_save.Text" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="noteform_search.PlaceholderText" xml:space="preserve">
+    <value>Immettere il testo di ricerca</value>
+  </data>
+  <data name="noteform_title.Text" xml:space="preserve">
+    <value>Titolo nota</value>
+  </data>
+  <data name="noteMain_add.Text" xml:space="preserve">
+    <value>Aggiungi una nuova nota</value>
+  </data>
+  <data name="notemain_changenb.Text" xml:space="preserve">
+    <value>Cambia blocco appunti</value>
+  </data>
+  <data name="notemain_dltnote.Text" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="notemain_editnote.Text" xml:space="preserve">
+    <value>Modificare</value>
+  </data>
+  <data name="notemain_hidepane.Text" xml:space="preserve">
+    <value>Nascondi riquadro</value>
+  </data>
+  <data name="noteMain_title.Text" xml:space="preserve">
+    <value>Note personali</value>
+  </data>
+  <data name="nv1.Text" xml:space="preserve">
+    <value>Mostra condiviso</value>
+  </data>
+  <data name="nv2.Text" xml:space="preserve">
+    <value>Condividi blocco appunti</value>
+  </data>
+  <data name="nv3.Text" xml:space="preserve">
+    <value>Modifica blocco appunti</value>
+  </data>
+  <data name="nv4.Text" xml:space="preserve">
+    <value>Eliminare blocco appunti</value>
+  </data>
+  <data name="nvn_title.Text" xml:space="preserve">
+    <value>Gestisci note</value>
+  </data>
+  <data name="nvs_title.Text" xml:space="preserve">
+    <value>Gestire gli schizzi</value>
+  </data>
+  <data name="profile_cancel.Label" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="profile_name.Header" xml:space="preserve">
+    <value>Nome utente</value>
+  </data>
+  <data name="profile_passwordchange.Text" xml:space="preserve">
+    <value>Modificare la password:</value>
+  </data>
+  <data name="profile_passwordreset.Content" xml:space="preserve">
+    <value>Cambia password</value>
+  </data>
+  <data name="profile_save.Label" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="profile_title.Text" xml:space="preserve">
+    <value>Profilo personale</value>
+  </data>
+  <data name="register_already.Text" xml:space="preserve">
+    <value>Hai già un account?</value>
+  </data>
+  <data name="register_cancelbtn.Content" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="register_email.Header" xml:space="preserve">
+    <value>Indirizzo di posta elettronica</value>
+  </data>
+  <data name="register_loginbtn.Content" xml:space="preserve">
+    <value>Accesso</value>
+  </data>
+  <data name="register_name.Header" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="register_pass.Header" xml:space="preserve">
+    <value>La tua password</value>
+  </data>
+  <data name="register_pass.PlaceholderText" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="register_passre.Header" xml:space="preserve">
+    <value>Confermare la password</value>
+  </data>
+  <data name="register_passre.PlaceholderText" xml:space="preserve">
+    <value>Immetti di nuovo la password</value>
+  </data>
+  <data name="register_regbtn.Content" xml:space="preserve">
+    <value>Registra</value>
+  </data>
+  <data name="register_title.Text" xml:space="preserve">
+    <value>Registra</value>
+  </data>
+  <data name="resetpasswd_passwd.Header" xml:space="preserve">
+    <value>La tua password</value>
+  </data>
+  <data name="resetpasswd_passwd2.Header" xml:space="preserve">
+    <value>Confermare la password</value>
+  </data>
+  <data name="resetpassworddlg.PrimaryButtonText" xml:space="preserve">
+    <value>Conferma password</value>
+  </data>
+  <data name="resetpassworddlg.SecondaryButtonText" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="resetpassworddlg.Title" xml:space="preserve">
+    <value>Reimpostare/modificare la password</value>
+  </data>
+  <data name="settingsPage_aboutTitle.Text" xml:space="preserve">
+    <value>Chi siamo</value>
+  </data>
+  <data name="settingsPage_aboutTitleText.Text" xml:space="preserve">
+    <value>Note-Is-Me è una potente esperienza collaborativa di acquisizione di note, che può aiutare le giovani menti a catturare i loro pensieri in modo organizzato, che può essere condiviso con chiunque in tutto il mondo.</value>
+  </data>
+  <data name="settingsPage_bugText.Text" xml:space="preserve">
+    <value>Se hai trovato un bug all'interno di NoteIsMe, invia un problema su GitLab.</value>
+  </data>
+  <data name="settingsPage_bugTitle.Text" xml:space="preserve">
+    <value>Hai trovato un insetto? Vuoi un nuovo campione?</value>
+  </data>
+  <data name="settingsPage_language.Text" xml:space="preserve">
+    <value>Lingua applicazione</value>
+  </data>
+  <data name="settingspage_reloadPage.Content" xml:space="preserve">
+    <value>Ricarica pagina</value>
+  </data>
+  <data name="settingsPage_themeMode.Text" xml:space="preserve">
+    <value>Scegliere la modalità tema</value>
+  </data>
+  <data name="settingsPage_version.Text" xml:space="preserve">
+    <value>Versione: 0.1 Alpha</value>
+  </data>
+  <data name="sharedlg.PrimaryButtonText" xml:space="preserve">
+    <value>Condividi</value>
+  </data>
+  <data name="sharedlg.SecondaryButtonText" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="sharedlg.Title" xml:space="preserve">
+    <value>Condividi blocco appunti</value>
+  </data>
+  <data name="sharedlg_edit.Text" xml:space="preserve">
+    <value>Consenti modifica sketch/note</value>
+  </data>
+  <data name="sharedlg_edit2.OffContent" xml:space="preserve">
+    <value>Disabilitato</value>
+  </data>
+  <data name="sharedlg_edit2.OnContent" xml:space="preserve">
+    <value>Abilitato</value>
+  </data>
+  <data name="sharedlg_email.Text" xml:space="preserve">
+    <value>Posta elettronica</value>
+  </data>
+  <data name="sharedlg_share.Text" xml:space="preserve">
+    <value>Consenti blocco appunti di condivisione</value>
+  </data>
+  <data name="sharedlg_share2.OffContent" xml:space="preserve">
+    <value>Disabilitato</value>
+  </data>
+  <data name="sharedlg_share2.OnContent" xml:space="preserve">
+    <value>Abilitato</value>
+  </data>
+  <data name="sharedlg_view.Text" xml:space="preserve">
+    <value>Consenti visualizzazione schizzo/nota</value>
+  </data>
+  <data name="sharedlg_view2.OffContent" xml:space="preserve">
+    <value>Disabilitato</value>
+  </data>
+  <data name="sharedlg_view2.OnContent" xml:space="preserve">
+    <value>Abilitato</value>
+  </data>
+  <data name="showdlg.SecondaryButtonText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="showdlg.Title" xml:space="preserve">
+    <value>Condividere con gli utenti seguenti</value>
+  </data>
+  <data name="showdlg_dlt.Text" xml:space="preserve">
+    <value>Rimuovere questa condivisione blocco appunti?</value>
+  </data>
+  <data name="showdlg_title.Text" xml:space="preserve">
+    <value>Per modificare le autorizzazioni, è sufficiente ricondividere con le autorizzazioni appropriate.</value>
+  </data>
+  <data name="sketchdraw_b.Text" xml:space="preserve">
+    <value>Indietro</value>
+  </data>
+  <data name="sketchdraw_down.Text" xml:space="preserve">
+    <value>Scarica</value>
+  </data>
+  <data name="sketchdraw_s.Text" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="sketchform_cancel.Content" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="sketchform_name.PlaceholderText" xml:space="preserve">
+    <value>Titolo</value>
+  </data>
+  <data name="sketchform_name.Text" xml:space="preserve">
+    <value>Titolo</value>
+  </data>
+  <data name="sketchform_nb.Header" xml:space="preserve">
+    <value>Blocco appunti</value>
+  </data>
+  <data name="sketchform_nb.PlaceholderText" xml:space="preserve">
+    <value>Selezionare un blocco appunti</value>
+  </data>
+  <data name="sketchform_save.Content" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="sketchform_title.Text" xml:space="preserve">
+    <value>Schizzo</value>
+  </data>
+  <data name="sketchmain_add.Text" xml:space="preserve">
+    <value>Aggiungi nuovo schizzo</value>
+  </data>
+  <data name="sketchmain_delete.Label" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="sketchmain_edit.Label" xml:space="preserve">
+    <value>Modificare</value>
+  </data>
+  <data name="sketchmain_title.Text" xml:space="preserve">
+    <value>Gestire gli schizzi</value>
+  </data>
+  <data name="tagmain_add.Text" xml:space="preserve">
+    <value>Aggiungi nuovo tag</value>
+  </data>
+  <data name="tagmain_note.Text" xml:space="preserve">
+    <value>Aggiungi nota</value>
+  </data>
+  <data name="tagmain_sketch.Text" xml:space="preserve">
+    <value>Aggiungi schizzo</value>
+  </data>
+  <data name="tagmain_title.Text" xml:space="preserve">
+    <value>Tag personali</value>
+  </data>
+  <data name="tagview_assign.Text" xml:space="preserve">
+    <value>Assegna al blocco appunti</value>
+  </data>
+  <data name="tag_add_note.Header" xml:space="preserve">
+    <value>Nota musicale</value>
+  </data>
+  <data name="tag_add_note.PlaceholderText" xml:space="preserve">
+    <value>Selezionare una nota</value>
+  </data>
+  <data name="tag_add_sketch.Header" xml:space="preserve">
+    <value>Schizzo</value>
+  </data>
+  <data name="tag_add_sketch.PlaceholderText" xml:space="preserve">
+    <value>Selezionare uno schizzo</value>
+  </data>
+  <data name="verify.PrimaryButtonText" xml:space="preserve">
+    <value>Conferma</value>
+  </data>
+  <data name="verify.SecondaryButtonText" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="verify.Title" xml:space="preserve">
+    <value>Codice di verifica</value>
+  </data>
+  <data name="verify_numbox.Header" xml:space="preserve">
+    <value>Inserisci il codice a sei cifre che hai ricevuto nella tua e-mail per continuare</value>
+  </data>
+</root>

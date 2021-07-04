@@ -1,0 +1,96 @@
+﻿<Page
+    x:Class="NoteIsMe.UWP.Views.NotebookViews.NotebookMainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NoteIsMe.UWP.Views.NotebookViews"
+    xmlns:model="using:NoteIsMe.Domain.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions >
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        
+
+        <TextBlock x:Uid="nm_title" Grid.Row="0" Text="Manage Notebooks" Style="{StaticResource HeaderTextBlockStyle}" Margin="25" VerticalAlignment="Center" FontWeight="Normal"/>
+
+        <Button Grid.Row="1" x:Name="AddButton" Height="60" Width="250" Margin="25, 15, 0, 15" Click="AddButton_Click">
+            <StackPanel Orientation="Horizontal" >
+                <Viewbox Height="25" Width="25" Margin="0,10,0,10">
+                    <SymbolIcon Symbol="Add"/>
+                </Viewbox>
+                <TextBlock x:Uid="nm_newnb" Text="Add New Notebook" FontWeight="Normal" Margin="10,10,0,0" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+            </StackPanel>
+        </Button>
+
+
+        <ListView Grid.Row="2"  ItemsSource="{x:Bind NotebookViewModel.Notebooks}" Margin="25 20 25 0"  IsItemClickEnabled="True" ItemClick="NotebookListView_ItemClick">
+
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem" >
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+
+            <ListView.HeaderTemplate>
+                <DataTemplate>
+                    <Grid Background="{ThemeResource SystemBaseLowColor}" Padding="10">
+
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock x:Uid="nm1" Grid.Row="1" Grid.Column="0" Text="Title" Style="{ThemeResource SubtitleTextBlockStyle}" Margin="15 0 0 0" />
+                        <TextBlock x:Uid="nm2" Grid.Row="1" Grid.Column="1" Text="Created By" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                        <TextBlock x:Uid="nm3" Grid.Row="1" Grid.Column="2" Text="Shared with" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                        <TextBlock x:Uid="nm4" Grid.Row="1" Grid.Column="3" Text="Actions" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+
+                    </Grid>
+                </DataTemplate>
+            </ListView.HeaderTemplate>
+
+            <ListView.ItemTemplate>
+                <DataTemplate x:Name="MyNotebooksDataTemplate" x:DataType="model:Notebook">
+                    <Grid Padding="10" HorizontalAlignment="Stretch">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/> 
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Orientation="Horizontal"  Grid.Column="0" VerticalAlignment="Center">
+                            <PersonPicture ProfilePicture="{x:Bind local:NotebookMainPage.GetOwnerGravatarURI(Owner.Email)}" Width="27" Height="27" Margin="0 0 7 0"/>
+                            <TextBlock x:Name="myTitle" VerticalAlignment="Center" Style="{ThemeResource BaseTextBlockStyle}" Text="{x:Bind Title}" />
+
+                        </StackPanel>
+                        <TextBlock x:Name="ownerName" Grid.Column="1" VerticalAlignment="Center" Style="{ThemeResource BaseTextBlockStyle}" Text="{x:Bind Owner.Name}"/>
+                        <TextBlock Grid.Column="2" VerticalAlignment="Center" Style="{ThemeResource BaseTextBlockStyle}" Text="{x:Bind Groups.Count}"/>
+                        <TextBlock Grid.Column="3" VerticalAlignment="Center" FontFamily="Segoe MDL2 Assets" Style="{ThemeResource BaseTextBlockStyle}" Text="{x:Bind local:NotebookMainPage.actionsAllowed(Id, OwnerId)}"/>
+
+                    </Grid>
+
+
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </Grid>
+
+</Page>

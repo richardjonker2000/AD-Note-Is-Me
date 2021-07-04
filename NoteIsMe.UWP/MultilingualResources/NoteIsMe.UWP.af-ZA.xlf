@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="af-ZA" original="NOTEISME.UWP/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="NOTEISME.UWP/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="addfld_cancel.Label" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kanselleer</target>
+        </trans-unit>
+        <trans-unit id="addfld_save.Label" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">stoor</target>
+        </trans-unit>
+        <trans-unit id="addfolder_title.Text" translate="yes" xml:space="preserve">
+          <source>Add New Folder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Voeg nuwe vouer by</target>
+        </trans-unit>
+        <trans-unit id="addfolder_titlefc.Header" translate="yes" xml:space="preserve">
+          <source>Folder Category</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vouerkategorie</target>
+        </trans-unit>
+        <trans-unit id="addfolder_titlefc.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Select Folder Category</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kies Vouerkategorie</target>
+        </trans-unit>
+        <trans-unit id="addfolder_titlenb.Header" translate="yes" xml:space="preserve">
+          <source>Folder Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vouernaam</target>
+        </trans-unit>
+        <trans-unit id="addnotebook2folder.PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Voeg by</target>
+        </trans-unit>
+        <trans-unit id="addnotebook2folder.SecondaryButtonText" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kanselleer</target>
+        </trans-unit>
+        <trans-unit id="addnotebook2folder.Title" translate="yes" xml:space="preserve">
+          <source>Notebook</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Notaboek</target>
+        </trans-unit>
+        <trans-unit id="addnotebook2folder_nb.Header" translate="yes" xml:space="preserve">
+          <source>Notebook</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Notaboek</target>
+        </trans-unit>
+        <trans-unit id="addnotebook2folder_nb.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Pick a Notebook</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kies 'n Notaboek</target>
+        </trans-unit>
+        <trans-unit id="addnote_tag.PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Voeg by</target>
+        </trans-unit>
+        <trans-unit id="addnote_tag.SecondaryButtonText" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kanselleer</target>
+        </trans-unit>
+        <trans-unit id="addnote_tag.Title" translate="yes" xml:space="preserve">
+          <source>Add Note to tag</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Voeg nota by merker</target>
+        </trans-unit>
+        <trans-unit id="addsketch_tag.PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Voeg by</target>
+        </trans-unit>
+        <trans-unit id="addsketch_tag.SecondaryButtonText" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kanselleer</target>
+        </trans-unit>
+        <trans-unit id="addsketch_tag.Title" translate="yes" xml:space="preserve">
+          <source>Add Sketch to tag</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Voeg Skets by merker</target>
+        </trans-unit>
+        <trans-unit id="addtagpage_cancel.Content" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kanselleer</target>
+        </trans-unit>
+        <trans-unit id="addtagpage_color.Text" translate="yes" xml:space="preserve">
+          <source>Pick the Tag color :</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kies die merkerkleur :</target>
+        </trans-unit>
+        <trans-unit id="addtagpage_name.Header" translate="yes" xml:space="preserve">
+          <source>Tag Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Merkernaam</target>
+        </trans-unit>
+        <trans-unit id="addtagpage_save.Content" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">stoor</target>
+        </trans-unit>
+        <trans-unit id="addtagpage_title.Text" translate="yes" xml:space="preserve">
+          <source>Add New tag</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Voeg nuwe merker by</target>
+        </trans-unit>
+        <trans-unit id="admin_edit.Text" translate="yes" xml:space="preserve">
+          <source>For other, triple click a cell to edit and hit Enter to save.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vir ander, driedubbele klik 'n sel om te wysig en druk Enter om te stoor.</target>
+        </trans-unit>
+        <trans-unit id="admin_engwarn.Text" translate="yes" xml:space="preserve">
+          <source>Individual Manage Pages are only in English.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Individuele Bestuur bladsye is slegs in Engels.</target>
+        </trans-unit>
+        <trans-unit id="admin_notedit.Text" translate="yes" xml:space="preserve">
+          <source>Fields marked with (L) in manage pages are not editable.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Velde gemerk met (L) in bestuursbladsye is nie redigeerbaar nie.</target>
+        </trans-unit>
+        <trans-unit id="admin_stat.Text" translate="yes" xml:space="preserve">
+          <source>General Statistics</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Algemene Statistiek</target>
+        </trans-unit>
+        <trans-unit id="admin_title.Text" translate="yes" xml:space="preserve">
+          <source>Admin Management Panel</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Admin Bestuurspaneel</target>
+        </trans-unit>
+        <trans-unit id="changenbdg_place.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Select Notebook</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kies notaboek</target>
+        </trans-unit>
+        <trans-unit id="changenotebookdg.PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">stoor</target>
+        </trans-unit>
+        <trans-unit id="changenotebookdg.SecondaryButtonText" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kanselleer</target>
+        </trans-unit>
+        <trans-unit id="changenotebookdg.Title" translate="yes" xml:space="preserve">
+          <source>Change Notebook</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Verander Notaboek</target>
+        </trans-unit>
+        <trans-unit id="findboxlabel.Text" translate="yes" xml:space="preserve">
+          <source>Find :</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vind:</target>
+        </trans-unit>
+        <trans-unit id="foldermain_delete.Label" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Skrap</target>
+        </trans-unit>
+        <trans-unit id="foldermain_edit.Label" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Redigeer</target>
+        </trans-unit>
+        <trans-unit id="foldermain_newfld.Text" translate="yes" xml:space="preserve">
+          <source>Add New Folder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Voeg nuwe vouer by</target>
+        </trans-unit>
+        <trans-unit id="foldermain_title.Text" translate="yes" xml:space="preserve">
+          <source>My Folders</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">My Vouers</target>
+        </trans-unit>
+        <trans-unit id="folderview_title.Text" translate="yes" xml:space="preserve">
+          <source>Add Notebook</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Voeg ’n notaboek by</target>
+        </trans-unit>
+        <trans-unit id="home_nb.Text" translate="yes" xml:space="preserve">
+          <source>Notebooks</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Notaboeke</target>
+        </trans-unit>
+        <trans-unit id="home_note.Text" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Notas</target>
+        </trans-unit>
+        <trans-unit id="home_sketch.Text" translate="yes" xml:space="preserve">
+          <source>Sketches</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sketse</target>
+        </trans-unit>
+        <trans-unit id="home_welcome.Text" translate="yes" xml:space="preserve">
+          <source>Welcome to NoteIsMe   </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Welkom by NoteIsMe   </target>
+        </trans-unit>
+        <trans-unit id="login_email.Header" translate="yes" xml:space="preserve">
+          <source>Your Email:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jou e-pos:</target>
+        </trans-unit>
+        <trans-unit id="login_forgot.Text" translate="yes" xml:space="preserve">
+          <source>Forgot your password?</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Jou wagwoord vergeet?</target>
+        </trans-unit>
+        <trans-unit id="login_loginbtn.Content" translate="yes" xml:space="preserve">
+          <source>Log in</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Teken aan</target>
+        </trans-unit>
+        <trans-unit id="login_noaccount.Text" translate="yes" xml:space="preserve">
+          <source>Don't have an account?</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Het nie ’n rekening nie?</target>
+        </trans-unit>
+        <trans-unit id="login_password.Header" translate="yes" xml:space="preserve">
+          <source>Your Password:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jou Wagwoord:</target>
+        </trans-unit>
+        <trans-unit id="login_register.Content" translate="yes" xml:space="preserve">
+          <source>Register Now</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Registreer nou</target>
+        </trans-unit>
+        <trans-unit id="login_reset.Content" translate="yes" xml:space="preserve">
+          <source>Reset Password</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stel wagwoord terug</target>
+        </trans-unit>
+        <trans-unit id="login_title.Text" translate="yes" xml:space="preserve">
+          <source>Log In to Continue</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Teken aan om voort te gaan</target>
+        </trans-unit>
+        <trans-unit id="mainpage_admin.Content" translate="yes" xml:space="preserve">
+          <source>Admin Panel</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Admin paneel</target>
+        </trans-unit>
+        <trans-unit id="mainpage_folder.Content" translate="yes" xml:space="preserve">
+          <source>Folder</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Omslag</target>
+        </trans-unit>
+        <trans-unit id="mainpage_home.Content" translate="yes" xml:space="preserve">
+          <source>Home</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">tuis</target>
+        </trans-unit>
+        <trans-unit id="mainpage_login.Content" translate="yes" xml:space="preserve">
+          <source>Log in</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Teken aan</target>
+        </trans-unit>
+        <trans-unit id="mainpage_logout.Content" translate="yes" xml:space="preserve">
+          <source>Log out</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Teken uit</target>
+        </trans-unit>
+        <trans-unit id="mainpage_newnote.Content" translate="yes" xml:space="preserve">
+          <source>New Note</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Nuwe nota</target>
+        </trans-unit>
+        <trans-unit id="mainpage_note.Content" translate="yes" xml:space="preserve">
+          <source>Note</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Let wel</target>
+        </trans-unit>
+        <trans-unit id="mainpage_notebook.Content" translate="yes" xml:space="preserve">
+          <source>Notebook</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Notaboek</target>
+        </trans-unit>
+        <trans-unit id="mainpage_profile.Content" translate="yes" xml:space="preserve">
+          <source>My Profile</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">My profiel</target>
+        </trans-unit>
+        <trans-unit id="mainpage_sketch.Content" translate="yes" xml:space="preserve">
+          <source>Sketch</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Skets</target>
+        </trans-unit>
+        <trans-unit id="mainpage_tag.Content" translate="yes" xml:space="preserve">
+          <source>Tag</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Merker</target>
+        </trans-unit>
+        <trans-unit id="nf_add" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Voeg by</target>
+        </trans-unit>
+        <trans-unit id="nf_cancel" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kanselleer</target>
+        </trans-unit>
+        <trans-unit id="nf_name.Header" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Titel</target>
+        </trans-unit>
+        <trans-unit id="nf_title.Text" translate="yes" xml:space="preserve">
+          <source>Create/Update a Notebook</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skep /Werk 'n notaboek by</target>
+        </trans-unit>
+        <trans-unit id="nm1.Text" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Titel</target>
+        </trans-unit>
+        <trans-unit id="nm2.Text" translate="yes" xml:space="preserve">
+          <source>Created by</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geskep deur</target>
+        </trans-unit>
+        <trans-unit id="nm3.Text" translate="yes" xml:space="preserve">
+          <source>Shared With</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Gedeel met</target>
+        </trans-unit>
+        <trans-unit id="nm4.Text" translate="yes" xml:space="preserve">
+          <source>Actions</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Aksies</target>
+        </trans-unit>
+        <trans-unit id="nm_newnb.Text" translate="yes" xml:space="preserve">
+          <source>Add New Notebook</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Voeg nuwe notaboek by</target>
+        </trans-unit>
+        <trans-unit id="nm_title.Text" translate="yes" xml:space="preserve">
+          <source>Manage Notebooks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bestuur Notaboeke</target>
+        </trans-unit>
+        <trans-unit id="noteform_cancel.Text" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kanselleer</target>
+        </trans-unit>
+        <trans-unit id="noteform_notebook.Text" translate="yes" xml:space="preserve">
+          <source>Notebooks</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Notaboeke</target>
+        </trans-unit>
+        <trans-unit id="noteform_notetext.Text" translate="yes" xml:space="preserve">
+          <source>Note Text</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Let op teks</target>
+        </trans-unit>
+        <trans-unit id="noteform_save.Text" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">stoor</target>
+        </trans-unit>
+        <trans-unit id="noteform_search.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Enter search text</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Voer soekteks in</target>
+        </trans-unit>
+        <trans-unit id="noteform_title.Text" translate="yes" xml:space="preserve">
+          <source>Note Title</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nota Titel</target>
+        </trans-unit>
+        <trans-unit id="noteMain_add.Text" translate="yes" xml:space="preserve">
+          <source>Add new note</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Voeg nuwe nota by</target>
+        </trans-unit>
+        <trans-unit id="notemain_changenb.Text" translate="yes" xml:space="preserve">
+          <source>Change Notebook</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Verander Notaboek</target>
+        </trans-unit>
+        <trans-unit id="notemain_dltnote.Text" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Skrap</target>
+        </trans-unit>
+        <trans-unit id="notemain_editnote.Text" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Redigeer</target>
+        </trans-unit>
+        <trans-unit id="notemain_hidepane.Text" translate="yes" xml:space="preserve">
+          <source>Hide Pane</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Versteek paneel</target>
+        </trans-unit>
+        <trans-unit id="noteMain_title.Text" translate="yes" xml:space="preserve">
+          <source>My Notes</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">My notas</target>
+        </trans-unit>
+        <trans-unit id="nv1.Text" translate="yes" xml:space="preserve">
+          <source>Show Shared</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wys gedeelde</target>
+        </trans-unit>
+        <trans-unit id="nv2.Text" translate="yes" xml:space="preserve">
+          <source>Share Notebook</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Deel notaboek</target>
+        </trans-unit>
+        <trans-unit id="nv3.Text" translate="yes" xml:space="preserve">
+          <source>Edit Notebook</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Redigeer Notebook</target>
+        </trans-unit>
+        <trans-unit id="nv4.Text" translate="yes" xml:space="preserve">
+          <source>Delete Notebook</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skrap Notaboek</target>
+        </trans-unit>
+        <trans-unit id="nvn_title.Text" translate="yes" xml:space="preserve">
+          <source>Manage Notes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bestuur Notas</target>
+        </trans-unit>
+        <trans-unit id="nvs_title.Text" translate="yes" xml:space="preserve">
+          <source>Manage Sketches</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bestuur sketse</target>
+        </trans-unit>
+        <trans-unit id="profile_cancel.Label" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kanselleer</target>
+        </trans-unit>
+        <trans-unit id="profile_name.Header" translate="yes" xml:space="preserve">
+          <source>Username</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Gebruikersnaam</target>
+        </trans-unit>
+        <trans-unit id="profile_passwordchange.Text" translate="yes" xml:space="preserve">
+          <source>Change your password :</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Verander jou wagwoord :</target>
+        </trans-unit>
+        <trans-unit id="profile_passwordreset.Content" translate="yes" xml:space="preserve">
+          <source>Change password</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Verander wagwoord</target>
+        </trans-unit>
+        <trans-unit id="profile_save.Label" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">stoor</target>
+        </trans-unit>
+        <trans-unit id="profile_title.Text" translate="yes" xml:space="preserve">
+          <source>My profile</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">My profiel</target>
+        </trans-unit>
+        <trans-unit id="register_already.Text" translate="yes" xml:space="preserve">
+          <source>Already have an account?</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Het reeds 'n rekening?</target>
+        </trans-unit>
+        <trans-unit id="register_cancelbtn.Content" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kanselleer</target>
+        </trans-unit>
+        <trans-unit id="register_email.Header" translate="yes" xml:space="preserve">
+          <source>Your Email</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jou e-pos</target>
+        </trans-unit>
+        <trans-unit id="register_loginbtn.Content" translate="yes" xml:space="preserve">
+          <source>Login</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Aanmelding</target>
+        </trans-unit>
+        <trans-unit id="register_name.Header" translate="yes" xml:space="preserve">
+          <source>Your Name</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Jou naam</target>
+        </trans-unit>
+        <trans-unit id="register_pass.Header" translate="yes" xml:space="preserve">
+          <source>Your Password</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jou Wagwoord</target>
+        </trans-unit>
+        <trans-unit id="register_pass.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wagwoord</target>
+        </trans-unit>
+        <trans-unit id="register_passre.Header" translate="yes" xml:space="preserve">
+          <source>Confirm Your Password</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bevestig jou wagwoord</target>
+        </trans-unit>
+        <trans-unit id="register_passre.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Reenter password</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Voer wagwoord weer in</target>
+        </trans-unit>
+        <trans-unit id="register_regbtn.Content" translate="yes" xml:space="preserve">
+          <source>Register</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Registreer</target>
+        </trans-unit>
+        <trans-unit id="register_title.Text" translate="yes" xml:space="preserve">
+          <source>Register</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Registreer</target>
+        </trans-unit>
+        <trans-unit id="resetpasswd_passwd.Header" translate="yes" xml:space="preserve">
+          <source>Your Password</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jou Wagwoord</target>
+        </trans-unit>
+        <trans-unit id="resetpasswd_passwd2.Header" translate="yes" xml:space="preserve">
+          <source>Confirm Your Password</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bevestig jou wagwoord</target>
+        </trans-unit>
+        <trans-unit id="resetpassworddlg.PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Confirm Password</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bevestig wagwoord</target>
+        </trans-unit>
+        <trans-unit id="resetpassworddlg.SecondaryButtonText" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kanselleer</target>
+        </trans-unit>
+        <trans-unit id="resetpassworddlg.Title" translate="yes" xml:space="preserve">
+          <source>Reset/Change Your Password</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stel jou wagwoord terug/verander dit</target>
+        </trans-unit>
+        <trans-unit id="settingsPage_aboutTitle.Text" translate="yes" xml:space="preserve">
+          <source>About Us</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Oor ons</target>
+        </trans-unit>
+        <trans-unit id="settingsPage_aboutTitleText.Text" translate="yes" xml:space="preserve">
+          <source>Note-Is-Me is a powerful collaborative note taking experience, that can help young  minds  capture  their  thoughts  in  an  organised  manner,  that  can  be shared to anyone throughout the world.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nota-Is-Me is 'n kragtige samewerkende nota wat ervaring neem, wat jong gedagtes kan help om hul gedagtes op 'n georganiseerde wyse vas te vang, wat aan enigiemand regoor die wêreld gedeel kan word.</target>
+        </trans-unit>
+        <trans-unit id="settingsPage_bugText.Text" translate="yes" xml:space="preserve">
+          <source>If you have found a bug within the NoteIsMe, please file an issue on GitLab.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">As jy 'n fout binne die NoteIsMe gevind het, dien asseblief 'n probleem op GitLab in.</target>
+        </trans-unit>
+        <trans-unit id="settingsPage_bugTitle.Text" translate="yes" xml:space="preserve">
+          <source>Found a bug? Want a new sample?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Het jy 'n fout gevind? Wil jy 'n nuwe monster?</target>
+        </trans-unit>
+        <trans-unit id="settingsPage_language.Text" translate="yes" xml:space="preserve">
+          <source>Application Language</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Toepassingstaal</target>
+        </trans-unit>
+        <trans-unit id="settingspage_reloadPage.Content" translate="yes" xml:space="preserve">
+          <source>Reload Page</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Herlaai bladsy</target>
+        </trans-unit>
+        <trans-unit id="settingsPage_themeMode.Text" translate="yes" xml:space="preserve">
+          <source>Choose theme mode</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kies temamodus</target>
+        </trans-unit>
+        <trans-unit id="settingsPage_version.Text" translate="yes" xml:space="preserve">
+          <source>Version: 0.1 Alpha</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Weergawe: 0.1 Alfa</target>
+        </trans-unit>
+        <trans-unit id="sharedlg.PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Share</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Deel</target>
+        </trans-unit>
+        <trans-unit id="sharedlg.SecondaryButtonText" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kanselleer</target>
+        </trans-unit>
+        <trans-unit id="sharedlg.Title" translate="yes" xml:space="preserve">
+          <source>Share Notebook</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Deel notaboek</target>
+        </trans-unit>
+        <trans-unit id="sharedlg_edit.Text" translate="yes" xml:space="preserve">
+          <source>Allow Sketch/Note Edit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laat skets/ nota wysig</target>
+        </trans-unit>
+        <trans-unit id="sharedlg_edit2.OffContent" translate="yes" xml:space="preserve">
+          <source>Disabled</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Gedeaktiveer</target>
+        </trans-unit>
+        <trans-unit id="sharedlg_edit2.OnContent" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Geaktiveer</target>
+        </trans-unit>
+        <trans-unit id="sharedlg_email.Text" translate="yes" xml:space="preserve">
+          <source>Email</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">E-pos</target>
+        </trans-unit>
+        <trans-unit id="sharedlg_share.Text" translate="yes" xml:space="preserve">
+          <source>Allow Sharing Notebook</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laat delingnotaboek toe</target>
+        </trans-unit>
+        <trans-unit id="sharedlg_share2.OffContent" translate="yes" xml:space="preserve">
+          <source>Disabled</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Gedeaktiveer</target>
+        </trans-unit>
+        <trans-unit id="sharedlg_share2.OnContent" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Geaktiveer</target>
+        </trans-unit>
+        <trans-unit id="sharedlg_view.Text" translate="yes" xml:space="preserve">
+          <source>Allow Viewing Sketch/Note</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laat besigtiging skets / Nota toe</target>
+        </trans-unit>
+        <trans-unit id="sharedlg_view2.OffContent" translate="yes" xml:space="preserve">
+          <source>Disabled</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Gedeaktiveer</target>
+        </trans-unit>
+        <trans-unit id="sharedlg_view2.OnContent" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Geaktiveer</target>
+        </trans-unit>
+        <trans-unit id="showdlg.SecondaryButtonText" translate="yes" xml:space="preserve">
+          <source>Okay</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Goed</target>
+        </trans-unit>
+        <trans-unit id="showdlg.Title" translate="yes" xml:space="preserve">
+          <source>Share with following Users</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Deel met volgende gebruikers</target>
+        </trans-unit>
+        <trans-unit id="showdlg_dlt.Text" translate="yes" xml:space="preserve">
+          <source>Are you sure to remove this notebook share?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Is jy seker om hierdie notaboekdeel te verwyder?</target>
+        </trans-unit>
+        <trans-unit id="showdlg_title.Text" translate="yes" xml:space="preserve">
+          <source>To change permissions, simply reshare with appropriate permissions.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Om toestemmings te verander, herdeel eenvoudig met toepaslike toestemmings.</target>
+        </trans-unit>
+        <trans-unit id="sketchdraw_b.Text" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Terug</target>
+        </trans-unit>
+        <trans-unit id="sketchdraw_down.Text" translate="yes" xml:space="preserve">
+          <source>Download</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Laai af</target>
+        </trans-unit>
+        <trans-unit id="sketchdraw_s.Text" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">stoor</target>
+        </trans-unit>
+        <trans-unit id="sketchform_cancel.Content" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kanselleer</target>
+        </trans-unit>
+        <trans-unit id="sketchform_name.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Titel</target>
+        </trans-unit>
+        <trans-unit id="sketchform_name.Text" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Titel</target>
+        </trans-unit>
+        <trans-unit id="sketchform_nb.Header" translate="yes" xml:space="preserve">
+          <source>Notebook</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Notaboek</target>
+        </trans-unit>
+        <trans-unit id="sketchform_nb.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Pick a Notebook</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kies 'n Notaboek</target>
+        </trans-unit>
+        <trans-unit id="sketchform_save.Content" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">stoor</target>
+        </trans-unit>
+        <trans-unit id="sketchform_title.Text" translate="yes" xml:space="preserve">
+          <source>Sketch</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Skets</target>
+        </trans-unit>
+        <trans-unit id="sketchmain_add.Text" translate="yes" xml:space="preserve">
+          <source>Add New Sketch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Voeg nuwe skets by</target>
+        </trans-unit>
+        <trans-unit id="sketchmain_delete.Label" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Skrap</target>
+        </trans-unit>
+        <trans-unit id="sketchmain_edit.Label" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Redigeer</target>
+        </trans-unit>
+        <trans-unit id="sketchmain_title.Text" translate="yes" xml:space="preserve">
+          <source>Manage Sketches</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bestuur sketse</target>
+        </trans-unit>
+        <trans-unit id="tagmain_add.Text" translate="yes" xml:space="preserve">
+          <source>Add New Tag</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Voeg nuwe merker by</target>
+        </trans-unit>
+        <trans-unit id="tagmain_note.Text" translate="yes" xml:space="preserve">
+          <source>Add Note</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Voeg nota by</target>
+        </trans-unit>
+        <trans-unit id="tagmain_sketch.Text" translate="yes" xml:space="preserve">
+          <source>Add Sketch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Voeg skets by</target>
+        </trans-unit>
+        <trans-unit id="tagmain_title.Text" translate="yes" xml:space="preserve">
+          <source>My Tags</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">My Merkers</target>
+        </trans-unit>
+        <trans-unit id="tagview_assign.Text" translate="yes" xml:space="preserve">
+          <source>Assign to Notebook</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ken toe aan Notaboek</target>
+        </trans-unit>
+        <trans-unit id="tag_add_note.Header" translate="yes" xml:space="preserve">
+          <source>Note</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Let wel</target>
+        </trans-unit>
+        <trans-unit id="tag_add_note.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Pick a Note</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kies 'n nota</target>
+        </trans-unit>
+        <trans-unit id="tag_add_sketch.Header" translate="yes" xml:space="preserve">
+          <source>Sketch</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Skets</target>
+        </trans-unit>
+        <trans-unit id="tag_add_sketch.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Pick a Sketch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kies 'n skets</target>
+        </trans-unit>
+        <trans-unit id="verify.PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Verify</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Verifieer</target>
+        </trans-unit>
+        <trans-unit id="verify.SecondaryButtonText" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kanselleer</target>
+        </trans-unit>
+        <trans-unit id="verify.Title" translate="yes" xml:space="preserve">
+          <source>Verify Code</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Verifieer kode</target>
+        </trans-unit>
+        <trans-unit id="verify_numbox.Header" translate="yes" xml:space="preserve">
+          <source>Please enter the six digit code you received in your email to continue</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tik asseblief die ses syferkode in wat jy in jou e-pos ontvang het om voort te gaan</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

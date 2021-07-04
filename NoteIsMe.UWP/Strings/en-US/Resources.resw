@@ -1,0 +1,606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addfld_cancel.Label" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="addfld_save.Label" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="addfolder_title.Text" xml:space="preserve">
+    <value>Add New Folder</value>
+  </data>
+  <data name="addfolder_titlefc.Header" xml:space="preserve">
+    <value>Folder Category</value>
+  </data>
+  <data name="addfolder_titlefc.PlaceholderText" xml:space="preserve">
+    <value>Select Folder Category</value>
+  </data>
+  <data name="addfolder_titlenb.Header" xml:space="preserve">
+    <value>Folder Name</value>
+  </data>
+  <data name="addnotebook2folder.PrimaryButtonText" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="addnotebook2folder.SecondaryButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="addnotebook2folder.Title" xml:space="preserve">
+    <value>Notebook</value>
+  </data>
+  <data name="addnotebook2folder_nb.Header" xml:space="preserve">
+    <value>Notebook</value>
+  </data>
+  <data name="addnotebook2folder_nb.PlaceholderText" xml:space="preserve">
+    <value>Pick a Notebook</value>
+  </data>
+  <data name="addnote_tag.PrimaryButtonText" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="addnote_tag.SecondaryButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="addnote_tag.Title" xml:space="preserve">
+    <value>Add Note to tag</value>
+  </data>
+  <data name="addsketch_tag.PrimaryButtonText" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="addsketch_tag.SecondaryButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="addsketch_tag.Title" xml:space="preserve">
+    <value>Add Sketch to tag</value>
+  </data>
+  <data name="addtagpage_cancel.Content" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="addtagpage_color.Text" xml:space="preserve">
+    <value>Pick the Tag color :</value>
+  </data>
+  <data name="addtagpage_name.Header" xml:space="preserve">
+    <value>Tag Name</value>
+  </data>
+  <data name="addtagpage_save.Content" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="addtagpage_title.Text" xml:space="preserve">
+    <value>Add New tag</value>
+  </data>
+  <data name="admin_edit.Text" xml:space="preserve">
+    <value>For other, triple click a cell to edit and hit Enter to save.</value>
+  </data>
+  <data name="admin_engwarn.Text" xml:space="preserve">
+    <value>Individual Manage Pages are only in English.</value>
+  </data>
+  <data name="admin_notedit.Text" xml:space="preserve">
+    <value>Fields marked with (L) in manage pages are not editable.</value>
+  </data>
+  <data name="admin_stat.Text" xml:space="preserve">
+    <value>General Statistics</value>
+  </data>
+  <data name="admin_title.Text" xml:space="preserve">
+    <value>Admin Management Panel</value>
+  </data>
+  <data name="changenbdg_place.PlaceholderText" xml:space="preserve">
+    <value>Select Notebook</value>
+  </data>
+  <data name="changenotebookdg.PrimaryButtonText" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="changenotebookdg.SecondaryButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="changenotebookdg.Title" xml:space="preserve">
+    <value>Change Notebook</value>
+  </data>
+  <data name="findboxlabel.Text" xml:space="preserve">
+    <value>Find :</value>
+  </data>
+  <data name="foldermain_delete.Label" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="foldermain_edit.Label" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="foldermain_newfld.Text" xml:space="preserve">
+    <value>Add New Folder</value>
+  </data>
+  <data name="foldermain_title.Text" xml:space="preserve">
+    <value>My Folders</value>
+  </data>
+  <data name="folderview_title.Text" xml:space="preserve">
+    <value>Add Notebook</value>
+  </data>
+  <data name="home_nb.Text" xml:space="preserve">
+    <value>Notebooks</value>
+  </data>
+  <data name="home_note.Text" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="home_sketch.Text" xml:space="preserve">
+    <value>Sketches</value>
+  </data>
+  <data name="home_welcome.Text" xml:space="preserve">
+    <value>Welcome to NoteIsMe   </value>
+  </data>
+  <data name="login_email.Header" xml:space="preserve">
+    <value>Your Email:</value>
+  </data>
+  <data name="login_forgot.Text" xml:space="preserve">
+    <value>Forgot your password?</value>
+  </data>
+  <data name="login_loginbtn.Content" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="login_noaccount.Text" xml:space="preserve">
+    <value>Don't have an account?</value>
+  </data>
+  <data name="login_password.Header" xml:space="preserve">
+    <value>Your Password:</value>
+  </data>
+  <data name="login_register.Content" xml:space="preserve">
+    <value>Register Now</value>
+  </data>
+  <data name="login_reset.Content" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="login_title.Text" xml:space="preserve">
+    <value>Log In to Continue</value>
+  </data>
+  <data name="mainpage_admin.Content" xml:space="preserve">
+    <value>Admin Panel</value>
+  </data>
+  <data name="mainpage_folder.Content" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="mainpage_home.Content" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="mainpage_login.Content" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="mainpage_logout.Content" xml:space="preserve">
+    <value>Log out</value>
+  </data>
+  <data name="mainpage_newnote.Content" xml:space="preserve">
+    <value>New Note</value>
+  </data>
+  <data name="mainpage_note.Content" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="mainpage_notebook.Content" xml:space="preserve">
+    <value>Notebook</value>
+  </data>
+  <data name="mainpage_profile.Content" xml:space="preserve">
+    <value>My Profile</value>
+  </data>
+  <data name="mainpage_sketch.Content" xml:space="preserve">
+    <value>Sketch</value>
+  </data>
+  <data name="mainpage_tag.Content" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="nf_add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="nf_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="nf_name.Header" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="nf_title.Text" xml:space="preserve">
+    <value>Create/Update a Notebook</value>
+  </data>
+  <data name="nm1.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="nm2.Text" xml:space="preserve">
+    <value>Created by</value>
+  </data>
+  <data name="nm3.Text" xml:space="preserve">
+    <value>Shared With</value>
+  </data>
+  <data name="nm4.Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="nm_newnb.Text" xml:space="preserve">
+    <value>Add New Notebook</value>
+  </data>
+  <data name="nm_title.Text" xml:space="preserve">
+    <value>Manage Notebooks</value>
+  </data>
+  <data name="noteform_cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="noteform_notebook.Text" xml:space="preserve">
+    <value>Notebooks</value>
+  </data>
+  <data name="noteform_notetext.Text" xml:space="preserve">
+    <value>Note Text</value>
+  </data>
+  <data name="noteform_save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="noteform_search.PlaceholderText" xml:space="preserve">
+    <value>Enter search text</value>
+  </data>
+  <data name="noteform_title.Text" xml:space="preserve">
+    <value>Note Title</value>
+  </data>
+  <data name="noteMain_add.Text" xml:space="preserve">
+    <value>Add new note</value>
+  </data>
+  <data name="notemain_changenb.Text" xml:space="preserve">
+    <value>Change Notebook</value>
+  </data>
+  <data name="notemain_dltnote.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="notemain_editnote.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="notemain_hidepane.Text" xml:space="preserve">
+    <value>Hide Pane</value>
+  </data>
+  <data name="noteMain_title.Text" xml:space="preserve">
+    <value>My Notes</value>
+  </data>
+  <data name="nv1.Text" xml:space="preserve">
+    <value>Show Shared</value>
+  </data>
+  <data name="nv2.Text" xml:space="preserve">
+    <value>Share Notebook</value>
+  </data>
+  <data name="nv3.Text" xml:space="preserve">
+    <value>Edit Notebook</value>
+  </data>
+  <data name="nv4.Text" xml:space="preserve">
+    <value>Delete Notebook</value>
+  </data>
+  <data name="nvn_title.Text" xml:space="preserve">
+    <value>Manage Notes</value>
+  </data>
+  <data name="nvs_title.Text" xml:space="preserve">
+    <value>Manage Sketches</value>
+  </data>
+  <data name="profile_cancel.Label" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="profile_name.Header" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="profile_passwordchange.Text" xml:space="preserve">
+    <value>Change your password :</value>
+  </data>
+  <data name="profile_passwordreset.Content" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="profile_save.Label" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="profile_title.Text" xml:space="preserve">
+    <value>My profile</value>
+  </data>
+  <data name="register_already.Text" xml:space="preserve">
+    <value>Already have an account?</value>
+  </data>
+  <data name="register_cancelbtn.Content" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="register_email.Header" xml:space="preserve">
+    <value>Your Email</value>
+  </data>
+  <data name="register_loginbtn.Content" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="register_name.Header" xml:space="preserve">
+    <value>Your Name</value>
+  </data>
+  <data name="register_pass.Header" xml:space="preserve">
+    <value>Your Password</value>
+  </data>
+  <data name="register_pass.PlaceholderText" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="register_passre.Header" xml:space="preserve">
+    <value>Confirm Your Password</value>
+  </data>
+  <data name="register_passre.PlaceholderText" xml:space="preserve">
+    <value>Reenter password</value>
+  </data>
+  <data name="register_regbtn.Content" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="register_title.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="resetpasswd_passwd.Header" xml:space="preserve">
+    <value>Your Password</value>
+  </data>
+  <data name="resetpasswd_passwd2.Header" xml:space="preserve">
+    <value>Confirm Your Password</value>
+  </data>
+  <data name="resetpassworddlg.PrimaryButtonText" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="resetpassworddlg.SecondaryButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="resetpassworddlg.Title" xml:space="preserve">
+    <value>Reset/Change Your Password</value>
+  </data>
+  <data name="settingsPage_aboutTitle.Text" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="settingsPage_aboutTitleText.Text" xml:space="preserve">
+    <value>Note-Is-Me is a powerful collaborative note taking experience, that can help young  minds  capture  their  thoughts  in  an  organised  manner,  that  can  be shared to anyone throughout the world.</value>
+  </data>
+  <data name="settingsPage_bugText.Text" xml:space="preserve">
+    <value>If you have found a bug within the NoteIsMe, please file an issue on GitLab.</value>
+  </data>
+  <data name="settingsPage_bugTitle.Text" xml:space="preserve">
+    <value>Found a bug? Want a new sample?</value>
+  </data>
+  <data name="settingsPage_language.Text" xml:space="preserve">
+    <value>Application Language</value>
+  </data>
+  <data name="settingspage_reloadPage.Content" xml:space="preserve">
+    <value>Reload Page</value>
+  </data>
+  <data name="settingsPage_themeMode.Text" xml:space="preserve">
+    <value>Choose theme mode</value>
+  </data>
+  <data name="settingsPage_version.Text" xml:space="preserve">
+    <value>Version: 0.1 Alpha</value>
+  </data>
+  <data name="sharedlg.PrimaryButtonText" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="sharedlg.SecondaryButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="sharedlg.Title" xml:space="preserve">
+    <value>Share Notebook</value>
+  </data>
+  <data name="sharedlg_edit.Text" xml:space="preserve">
+    <value>Allow Sketch/Note Edit</value>
+  </data>
+  <data name="sharedlg_edit2.OffContent" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="sharedlg_edit2.OnContent" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="sharedlg_email.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="sharedlg_share.Text" xml:space="preserve">
+    <value>Allow Sharing Notebook</value>
+  </data>
+  <data name="sharedlg_share2.OffContent" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="sharedlg_share2.OnContent" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="sharedlg_view.Text" xml:space="preserve">
+    <value>Allow Viewing Sketch/Note</value>
+  </data>
+  <data name="sharedlg_view2.OffContent" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="sharedlg_view2.OnContent" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="showdlg.SecondaryButtonText" xml:space="preserve">
+    <value>Okay</value>
+  </data>
+  <data name="showdlg.Title" xml:space="preserve">
+    <value>Share with following Users</value>
+  </data>
+  <data name="showdlg_dlt.Text" xml:space="preserve">
+    <value>Are you sure to remove this notebook share?</value>
+  </data>
+  <data name="showdlg_title.Text" xml:space="preserve">
+    <value>To change permissions, simply reshare with appropriate permissions.</value>
+  </data>
+  <data name="sketchdraw_b.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="sketchdraw_down.Text" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="sketchdraw_s.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="sketchform_cancel.Content" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="sketchform_name.PlaceholderText" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="sketchform_name.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="sketchform_nb.Header" xml:space="preserve">
+    <value>Notebook</value>
+  </data>
+  <data name="sketchform_nb.PlaceholderText" xml:space="preserve">
+    <value>Pick a Notebook</value>
+  </data>
+  <data name="sketchform_save.Content" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="sketchform_title.Text" xml:space="preserve">
+    <value>Sketch</value>
+  </data>
+  <data name="sketchmain_add.Text" xml:space="preserve">
+    <value>Add New Sketch</value>
+  </data>
+  <data name="sketchmain_delete.Label" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="sketchmain_edit.Label" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="sketchmain_title.Text" xml:space="preserve">
+    <value>Manage Sketches</value>
+  </data>
+  <data name="tagmain_add.Text" xml:space="preserve">
+    <value>Add New Tag</value>
+  </data>
+  <data name="tagmain_note.Text" xml:space="preserve">
+    <value>Add Note</value>
+  </data>
+  <data name="tagmain_sketch.Text" xml:space="preserve">
+    <value>Add Sketch</value>
+  </data>
+  <data name="tagmain_title.Text" xml:space="preserve">
+    <value>My Tags</value>
+  </data>
+  <data name="tagview_assign.Text" xml:space="preserve">
+    <value>Assign to Notebook</value>
+  </data>
+  <data name="tag_add_note.Header" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="tag_add_note.PlaceholderText" xml:space="preserve">
+    <value>Pick a Note</value>
+  </data>
+  <data name="tag_add_sketch.Header" xml:space="preserve">
+    <value>Sketch</value>
+  </data>
+  <data name="tag_add_sketch.PlaceholderText" xml:space="preserve">
+    <value>Pick a Sketch</value>
+  </data>
+  <data name="verify.PrimaryButtonText" xml:space="preserve">
+    <value>Verify</value>
+  </data>
+  <data name="verify.SecondaryButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="verify.Title" xml:space="preserve">
+    <value>Verify Code</value>
+  </data>
+  <data name="verify_numbox.Header" xml:space="preserve">
+    <value>Please enter the six digit code you received in your email to continue</value>
+  </data>
+</root>

@@ -1,0 +1,149 @@
+﻿<Page
+    x:Class="NoteIsMe.UWP.Views.NoteViews.NoteMainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NoteIsMe.UWP.Views.NoteViews"
+    xmlns:model="using:NoteIsMe.Domain.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:fa="using:FontAwesome.UWP"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <SplitView
+           x:Name="noteSplitView"
+           IsPaneOpen="True"
+           DisplayMode="Inline"
+           OpenPaneLength="296">
+        <SplitView.Pane>
+
+            <Grid Margin="5 20">
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+
+                </Grid.RowDefinitions>
+
+
+
+
+
+
+                <TextBlock x:Uid="noteMain_title" Text="My Notes" Grid.Row="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+                <Button x:Name="addNewNoteButton" Height="60" Margin="25" Grid.Row="2" HorizontalAlignment="Stretch" Tapped="addNewNoteButton_Tapped">
+                    <StackPanel Orientation="Horizontal" >
+
+
+                        <Viewbox Height="25" Width="25" Margin="0,10,0,10">
+                            <SymbolIcon Symbol="Add"/>
+                        </Viewbox>
+                        <TextBlock x:Uid="noteMain_add" Text="Add New Note" FontWeight="Normal" Margin="10,10,0,0" Style="{ThemeResource SubtitleTextBlockStyle}" />
+                    </StackPanel>
+                </Button>
+
+                <ListView Grid.Row="3" x:Name="NotesList" ItemsSource="{x:Bind NoteViewModel.Notes}" IsItemClickEnabled="True" ItemClick="NotesList_ItemClick">
+
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="model:Note">
+                            <StackPanel x:Name="notePaneListTitle" Orientation="Horizontal" HorizontalAlignment="Right" >
+                                <fa:FontAwesome Icon="Paste" Margin="0 0 10 0"  />
+                                <TextBlock Text="{x:Bind Title}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+
+            </Grid>
+
+        </SplitView.Pane>
+
+        <SplitView.Content>
+            <Grid Margin="5 20">
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+
+
+
+                <Button Grid.Row="0" x:Name="showSplitPane" Click="showSplitPane_Click" Margin="10">
+                    <Button.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <fa:FontAwesome Icon="Columns" x:Name="showSplitPaneButtonIcon" Margin="5"/>
+                            <TextBlock x:Uid="notemain_hidepane" Text="Hide Pane" x:Name="showSplitPaneButtonText" Margin="5"/>
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
+                <TextBlock x:Name="titleTextBlock" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{ThemeResource SubheaderTextBlockStyle}" Visibility="Collapsed"/>
+
+                <StackPanel Grid.Row="1"  Orientation="Horizontal" HorizontalAlignment="Right" Margin="25 0">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+
+                        <Button x:Name="ownNotebookChange" Padding="8 3" Margin="10" Tapped="ownNotebookChange_Tapped" Visibility="Collapsed">
+                            <Button.Content>
+                                <StackPanel Orientation="Horizontal">
+                                    <SymbolIcon Symbol="MoveToFolder" Margin="5"/>
+                                    <TextBlock x:Uid="notemain_changenb" Text="Change Notebook" Margin="5"/>
+                                </StackPanel>
+                            </Button.Content>
+                        </Button>
+
+                        <Button x:Name="ownNoteEdit" Padding="8 3" Margin="10" Tapped="ownNoteEdit_Tapped" Visibility="Collapsed">
+                            <Button.Content>
+                                <StackPanel Orientation="Horizontal">
+                                    <SymbolIcon Symbol="Edit" Margin="5"/>
+                                    <TextBlock  x:Uid="notemain_editnote" Text="Edit" Margin="5"/>
+                                </StackPanel>
+                            </Button.Content>
+                        </Button>
+
+                        <Button x:Name="ownNoteDelete"  Padding="8 3" Margin="10" Tapped="ownNoteDelete_Tapped" Visibility="Collapsed">
+                            <Button.Content>
+                                <StackPanel Orientation="Horizontal">
+                                    <SymbolIcon Symbol="Delete" Margin="5"/>
+                                    <TextBlock x:Uid="notemain_dltnote"  Text="Delete" Margin="5"/>
+                                </StackPanel>
+                            </Button.Content>
+                        </Button>
+                    </StackPanel>
+                </StackPanel>
+
+
+
+                <StackPanel Grid.Row="2" Margin="25">
+
+                    <TextBlock x:Name="noneSelectedText" Text="Please select a note to edit it" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    
+                    <TextBlock  x:Name="notebookTitleTextBlock" Style="{ThemeResource SubtitleTextBlockStyle}" Visibility="Collapsed" Text="Notebook" Margin="10"/>
+                    <TextBlock  x:Name="notebookTextBlock" Style="{ThemeResource SubtitleTextBlockStyle}" Visibility="Collapsed" Text="Notebook name" Margin="10"/>
+
+                    <TextBlock  x:Name="contentTitleTextBlock" Style="{ThemeResource SubtitleTextBlockStyle}" Visibility="Collapsed" Text="Note Content" Margin="10"/>
+                    <RichEditBox x:Name="bodyTextBlock"  Height="250"  Margin="10 0 10 25" Visibility="Collapsed"/>
+
+
+                </StackPanel>
+
+                <StackPanel Grid.Row="2" Margin="25">
+
+                </StackPanel>
+
+            </Grid>
+        </SplitView.Content>
+
+
+
+
+    </SplitView>
+
+
+
+
+</Page>

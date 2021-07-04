@@ -1,0 +1,54 @@
+﻿<ContentDialog
+    x:Class="NoteIsMe.UWP.Views.NotebookViews.ShowNotebookGroupsDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NoteIsMe.UWP.Views.NotebookViews"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:fa="using:FontAwesome.UWP" xmlns:model="using:NoteIsMe.Domain.Models"
+    mc:Ignorable="d"
+    x:Uid="showdlg"
+    Title="Shared with following Users"
+    SecondaryButtonText="Okay"
+    PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
+    SecondaryButtonClick="ContentDialog_SecondaryButtonClick">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Uid="showdlg_title" Text="To change permissions, simply reshare with appropriate permissions." Grid.Row="1" Foreground="IndianRed" />
+
+        <ListView Grid.Row ="2" x:Name="Notebooks" ItemsSource="{x:Bind notebook.Groups}" Margin ="0 20" Width="350" HorizontalAlignment="Left" IsItemClickEnabled="False">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="model:Group">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="{x:Bind User.Email}" FontWeight="Normal" Margin="10,0,10,0" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20"/>
+                        <Button x:Name="RemoveShare" Grid.Column="3" HorizontalAlignment="Right" >
+                            <Button.Flyout>
+                                <Flyout>
+                                    <StackPanel>
+                                        <TextBlock x:Uid="showdlg_dlt" Style="{ThemeResource BaseTextBlockStyle}" Text="Are you sure to remove this notebook share?" Margin="0,0,0,12" />
+                                        <Button Click="RemoveShare_Click" Content="Confirm" />
+                                    </StackPanel>
+                                </Flyout>
+                            </Button.Flyout>
+
+                            <Button.Content>
+                                <fa:FontAwesome Icon="Trash" />
+                            </Button.Content>
+                        </Button>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+    </Grid>
+</ContentDialog>

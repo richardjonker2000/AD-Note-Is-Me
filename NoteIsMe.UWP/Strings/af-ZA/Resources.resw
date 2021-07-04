@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addfld_cancel.Label" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="addfld_save.Label" xml:space="preserve">
+    <value>stoor</value>
+  </data>
+  <data name="addfolder_title.Text" xml:space="preserve">
+    <value>Voeg nuwe vouer by</value>
+  </data>
+  <data name="addfolder_titlefc.Header" xml:space="preserve">
+    <value>Vouerkategorie</value>
+  </data>
+  <data name="addfolder_titlefc.PlaceholderText" xml:space="preserve">
+    <value>Kies Vouerkategorie</value>
+  </data>
+  <data name="addfolder_titlenb.Header" xml:space="preserve">
+    <value>Vouernaam</value>
+  </data>
+  <data name="addnotebook2folder.PrimaryButtonText" xml:space="preserve">
+    <value>Voeg by</value>
+  </data>
+  <data name="addnotebook2folder.SecondaryButtonText" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="addnotebook2folder.Title" xml:space="preserve">
+    <value>Notaboek</value>
+  </data>
+  <data name="addnotebook2folder_nb.Header" xml:space="preserve">
+    <value>Notaboek</value>
+  </data>
+  <data name="addnotebook2folder_nb.PlaceholderText" xml:space="preserve">
+    <value>Kies 'n Notaboek</value>
+  </data>
+  <data name="addnote_tag.PrimaryButtonText" xml:space="preserve">
+    <value>Voeg by</value>
+  </data>
+  <data name="addnote_tag.SecondaryButtonText" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="addnote_tag.Title" xml:space="preserve">
+    <value>Voeg nota by merker</value>
+  </data>
+  <data name="addsketch_tag.PrimaryButtonText" xml:space="preserve">
+    <value>Voeg by</value>
+  </data>
+  <data name="addsketch_tag.SecondaryButtonText" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="addsketch_tag.Title" xml:space="preserve">
+    <value>Voeg Skets by merker</value>
+  </data>
+  <data name="addtagpage_cancel.Content" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="addtagpage_color.Text" xml:space="preserve">
+    <value>Kies die merkerkleur :</value>
+  </data>
+  <data name="addtagpage_name.Header" xml:space="preserve">
+    <value>Merkernaam</value>
+  </data>
+  <data name="addtagpage_save.Content" xml:space="preserve">
+    <value>stoor</value>
+  </data>
+  <data name="addtagpage_title.Text" xml:space="preserve">
+    <value>Voeg nuwe merker by</value>
+  </data>
+  <data name="admin_edit.Text" xml:space="preserve">
+    <value>Vir ander, driedubbele klik 'n sel om te wysig en druk Enter om te stoor.</value>
+  </data>
+  <data name="admin_engwarn.Text" xml:space="preserve">
+    <value>Individuele Bestuur bladsye is slegs in Engels.</value>
+  </data>
+  <data name="admin_notedit.Text" xml:space="preserve">
+    <value>Velde gemerk met (L) in bestuursbladsye is nie redigeerbaar nie.</value>
+  </data>
+  <data name="admin_stat.Text" xml:space="preserve">
+    <value>Algemene Statistiek</value>
+  </data>
+  <data name="admin_title.Text" xml:space="preserve">
+    <value>Admin Bestuurspaneel</value>
+  </data>
+  <data name="changenbdg_place.PlaceholderText" xml:space="preserve">
+    <value>Kies notaboek</value>
+  </data>
+  <data name="changenotebookdg.PrimaryButtonText" xml:space="preserve">
+    <value>stoor</value>
+  </data>
+  <data name="changenotebookdg.SecondaryButtonText" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="changenotebookdg.Title" xml:space="preserve">
+    <value>Verander Notaboek</value>
+  </data>
+  <data name="findboxlabel.Text" xml:space="preserve">
+    <value>Vind:</value>
+  </data>
+  <data name="foldermain_delete.Label" xml:space="preserve">
+    <value>Skrap</value>
+  </data>
+  <data name="foldermain_edit.Label" xml:space="preserve">
+    <value>Redigeer</value>
+  </data>
+  <data name="foldermain_newfld.Text" xml:space="preserve">
+    <value>Voeg nuwe vouer by</value>
+  </data>
+  <data name="foldermain_title.Text" xml:space="preserve">
+    <value>My Vouers</value>
+  </data>
+  <data name="folderview_title.Text" xml:space="preserve">
+    <value>Voeg ’n notaboek by</value>
+  </data>
+  <data name="home_nb.Text" xml:space="preserve">
+    <value>Notaboeke</value>
+  </data>
+  <data name="home_note.Text" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="home_sketch.Text" xml:space="preserve">
+    <value>Sketse</value>
+  </data>
+  <data name="home_welcome.Text" xml:space="preserve">
+    <value>Welkom by NoteIsMe   </value>
+  </data>
+  <data name="login_email.Header" xml:space="preserve">
+    <value>Jou e-pos:</value>
+  </data>
+  <data name="login_forgot.Text" xml:space="preserve">
+    <value>Jou wagwoord vergeet?</value>
+  </data>
+  <data name="login_loginbtn.Content" xml:space="preserve">
+    <value>Teken aan</value>
+  </data>
+  <data name="login_noaccount.Text" xml:space="preserve">
+    <value>Het nie ’n rekening nie?</value>
+  </data>
+  <data name="login_password.Header" xml:space="preserve">
+    <value>Jou Wagwoord:</value>
+  </data>
+  <data name="login_register.Content" xml:space="preserve">
+    <value>Registreer nou</value>
+  </data>
+  <data name="login_reset.Content" xml:space="preserve">
+    <value>Stel wagwoord terug</value>
+  </data>
+  <data name="login_title.Text" xml:space="preserve">
+    <value>Teken aan om voort te gaan</value>
+  </data>
+  <data name="mainpage_admin.Content" xml:space="preserve">
+    <value>Admin paneel</value>
+  </data>
+  <data name="mainpage_folder.Content" xml:space="preserve">
+    <value>Omslag</value>
+  </data>
+  <data name="mainpage_home.Content" xml:space="preserve">
+    <value>tuis</value>
+  </data>
+  <data name="mainpage_login.Content" xml:space="preserve">
+    <value>Teken aan</value>
+  </data>
+  <data name="mainpage_logout.Content" xml:space="preserve">
+    <value>Teken uit</value>
+  </data>
+  <data name="mainpage_newnote.Content" xml:space="preserve">
+    <value>Nuwe nota</value>
+  </data>
+  <data name="mainpage_note.Content" xml:space="preserve">
+    <value>Let wel</value>
+  </data>
+  <data name="mainpage_notebook.Content" xml:space="preserve">
+    <value>Notaboek</value>
+  </data>
+  <data name="mainpage_profile.Content" xml:space="preserve">
+    <value>My profiel</value>
+  </data>
+  <data name="mainpage_sketch.Content" xml:space="preserve">
+    <value>Skets</value>
+  </data>
+  <data name="mainpage_tag.Content" xml:space="preserve">
+    <value>Merker</value>
+  </data>
+  <data name="nf_add" xml:space="preserve">
+    <value>Voeg by</value>
+  </data>
+  <data name="nf_cancel" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="nf_name.Header" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="nf_title.Text" xml:space="preserve">
+    <value>Skep /Werk 'n notaboek by</value>
+  </data>
+  <data name="nm1.Text" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="nm2.Text" xml:space="preserve">
+    <value>Geskep deur</value>
+  </data>
+  <data name="nm3.Text" xml:space="preserve">
+    <value>Gedeel met</value>
+  </data>
+  <data name="nm4.Text" xml:space="preserve">
+    <value>Aksies</value>
+  </data>
+  <data name="nm_newnb.Text" xml:space="preserve">
+    <value>Voeg nuwe notaboek by</value>
+  </data>
+  <data name="nm_title.Text" xml:space="preserve">
+    <value>Bestuur Notaboeke</value>
+  </data>
+  <data name="noteform_cancel.Text" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="noteform_notebook.Text" xml:space="preserve">
+    <value>Notaboeke</value>
+  </data>
+  <data name="noteform_notetext.Text" xml:space="preserve">
+    <value>Let op teks</value>
+  </data>
+  <data name="noteform_save.Text" xml:space="preserve">
+    <value>stoor</value>
+  </data>
+  <data name="noteform_search.PlaceholderText" xml:space="preserve">
+    <value>Voer soekteks in</value>
+  </data>
+  <data name="noteform_title.Text" xml:space="preserve">
+    <value>Nota Titel</value>
+  </data>
+  <data name="noteMain_add.Text" xml:space="preserve">
+    <value>Voeg nuwe nota by</value>
+  </data>
+  <data name="notemain_changenb.Text" xml:space="preserve">
+    <value>Verander Notaboek</value>
+  </data>
+  <data name="notemain_dltnote.Text" xml:space="preserve">
+    <value>Skrap</value>
+  </data>
+  <data name="notemain_editnote.Text" xml:space="preserve">
+    <value>Redigeer</value>
+  </data>
+  <data name="notemain_hidepane.Text" xml:space="preserve">
+    <value>Versteek paneel</value>
+  </data>
+  <data name="noteMain_title.Text" xml:space="preserve">
+    <value>My notas</value>
+  </data>
+  <data name="nv1.Text" xml:space="preserve">
+    <value>Wys gedeelde</value>
+  </data>
+  <data name="nv2.Text" xml:space="preserve">
+    <value>Deel notaboek</value>
+  </data>
+  <data name="nv3.Text" xml:space="preserve">
+    <value>Redigeer Notebook</value>
+  </data>
+  <data name="nv4.Text" xml:space="preserve">
+    <value>Skrap Notaboek</value>
+  </data>
+  <data name="nvn_title.Text" xml:space="preserve">
+    <value>Bestuur Notas</value>
+  </data>
+  <data name="nvs_title.Text" xml:space="preserve">
+    <value>Bestuur sketse</value>
+  </data>
+  <data name="profile_cancel.Label" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="profile_name.Header" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+  </data>
+  <data name="profile_passwordchange.Text" xml:space="preserve">
+    <value>Verander jou wagwoord :</value>
+  </data>
+  <data name="profile_passwordreset.Content" xml:space="preserve">
+    <value>Verander wagwoord</value>
+  </data>
+  <data name="profile_save.Label" xml:space="preserve">
+    <value>stoor</value>
+  </data>
+  <data name="profile_title.Text" xml:space="preserve">
+    <value>My profiel</value>
+  </data>
+  <data name="register_already.Text" xml:space="preserve">
+    <value>Het reeds 'n rekening?</value>
+  </data>
+  <data name="register_cancelbtn.Content" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="register_email.Header" xml:space="preserve">
+    <value>Jou e-pos</value>
+  </data>
+  <data name="register_loginbtn.Content" xml:space="preserve">
+    <value>Aanmelding</value>
+  </data>
+  <data name="register_name.Header" xml:space="preserve">
+    <value>Jou naam</value>
+  </data>
+  <data name="register_pass.Header" xml:space="preserve">
+    <value>Jou Wagwoord</value>
+  </data>
+  <data name="register_pass.PlaceholderText" xml:space="preserve">
+    <value>Wagwoord</value>
+  </data>
+  <data name="register_passre.Header" xml:space="preserve">
+    <value>Bevestig jou wagwoord</value>
+  </data>
+  <data name="register_passre.PlaceholderText" xml:space="preserve">
+    <value>Voer wagwoord weer in</value>
+  </data>
+  <data name="register_regbtn.Content" xml:space="preserve">
+    <value>Registreer</value>
+  </data>
+  <data name="register_title.Text" xml:space="preserve">
+    <value>Registreer</value>
+  </data>
+  <data name="resetpasswd_passwd.Header" xml:space="preserve">
+    <value>Jou Wagwoord</value>
+  </data>
+  <data name="resetpasswd_passwd2.Header" xml:space="preserve">
+    <value>Bevestig jou wagwoord</value>
+  </data>
+  <data name="resetpassworddlg.PrimaryButtonText" xml:space="preserve">
+    <value>Bevestig wagwoord</value>
+  </data>
+  <data name="resetpassworddlg.SecondaryButtonText" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="resetpassworddlg.Title" xml:space="preserve">
+    <value>Stel jou wagwoord terug/verander dit</value>
+  </data>
+  <data name="settingsPage_aboutTitle.Text" xml:space="preserve">
+    <value>Oor ons</value>
+  </data>
+  <data name="settingsPage_aboutTitleText.Text" xml:space="preserve">
+    <value>Nota-Is-Me is 'n kragtige samewerkende nota wat ervaring neem, wat jong gedagtes kan help om hul gedagtes op 'n georganiseerde wyse vas te vang, wat aan enigiemand regoor die wêreld gedeel kan word.</value>
+  </data>
+  <data name="settingsPage_bugText.Text" xml:space="preserve">
+    <value>As jy 'n fout binne die NoteIsMe gevind het, dien asseblief 'n probleem op GitLab in.</value>
+  </data>
+  <data name="settingsPage_bugTitle.Text" xml:space="preserve">
+    <value>Het jy 'n fout gevind? Wil jy 'n nuwe monster?</value>
+  </data>
+  <data name="settingsPage_language.Text" xml:space="preserve">
+    <value>Toepassingstaal</value>
+  </data>
+  <data name="settingspage_reloadPage.Content" xml:space="preserve">
+    <value>Herlaai bladsy</value>
+  </data>
+  <data name="settingsPage_themeMode.Text" xml:space="preserve">
+    <value>Kies temamodus</value>
+  </data>
+  <data name="settingsPage_version.Text" xml:space="preserve">
+    <value>Weergawe: 0.1 Alfa</value>
+  </data>
+  <data name="sharedlg.PrimaryButtonText" xml:space="preserve">
+    <value>Deel</value>
+  </data>
+  <data name="sharedlg.SecondaryButtonText" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="sharedlg.Title" xml:space="preserve">
+    <value>Deel notaboek</value>
+  </data>
+  <data name="sharedlg_edit.Text" xml:space="preserve">
+    <value>Laat skets/ nota wysig</value>
+  </data>
+  <data name="sharedlg_edit2.OffContent" xml:space="preserve">
+    <value>Gedeaktiveer</value>
+  </data>
+  <data name="sharedlg_edit2.OnContent" xml:space="preserve">
+    <value>Geaktiveer</value>
+  </data>
+  <data name="sharedlg_email.Text" xml:space="preserve">
+    <value>E-pos</value>
+  </data>
+  <data name="sharedlg_share.Text" xml:space="preserve">
+    <value>Laat delingnotaboek toe</value>
+  </data>
+  <data name="sharedlg_share2.OffContent" xml:space="preserve">
+    <value>Gedeaktiveer</value>
+  </data>
+  <data name="sharedlg_share2.OnContent" xml:space="preserve">
+    <value>Geaktiveer</value>
+  </data>
+  <data name="sharedlg_view.Text" xml:space="preserve">
+    <value>Laat besigtiging skets / Nota toe</value>
+  </data>
+  <data name="sharedlg_view2.OffContent" xml:space="preserve">
+    <value>Gedeaktiveer</value>
+  </data>
+  <data name="sharedlg_view2.OnContent" xml:space="preserve">
+    <value>Geaktiveer</value>
+  </data>
+  <data name="showdlg.SecondaryButtonText" xml:space="preserve">
+    <value>Goed</value>
+  </data>
+  <data name="showdlg.Title" xml:space="preserve">
+    <value>Deel met volgende gebruikers</value>
+  </data>
+  <data name="showdlg_dlt.Text" xml:space="preserve">
+    <value>Is jy seker om hierdie notaboekdeel te verwyder?</value>
+  </data>
+  <data name="showdlg_title.Text" xml:space="preserve">
+    <value>Om toestemmings te verander, herdeel eenvoudig met toepaslike toestemmings.</value>
+  </data>
+  <data name="sketchdraw_b.Text" xml:space="preserve">
+    <value>Terug</value>
+  </data>
+  <data name="sketchdraw_down.Text" xml:space="preserve">
+    <value>Laai af</value>
+  </data>
+  <data name="sketchdraw_s.Text" xml:space="preserve">
+    <value>stoor</value>
+  </data>
+  <data name="sketchform_cancel.Content" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="sketchform_name.PlaceholderText" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="sketchform_name.Text" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="sketchform_nb.Header" xml:space="preserve">
+    <value>Notaboek</value>
+  </data>
+  <data name="sketchform_nb.PlaceholderText" xml:space="preserve">
+    <value>Kies 'n Notaboek</value>
+  </data>
+  <data name="sketchform_save.Content" xml:space="preserve">
+    <value>stoor</value>
+  </data>
+  <data name="sketchform_title.Text" xml:space="preserve">
+    <value>Skets</value>
+  </data>
+  <data name="sketchmain_add.Text" xml:space="preserve">
+    <value>Voeg nuwe skets by</value>
+  </data>
+  <data name="sketchmain_delete.Label" xml:space="preserve">
+    <value>Skrap</value>
+  </data>
+  <data name="sketchmain_edit.Label" xml:space="preserve">
+    <value>Redigeer</value>
+  </data>
+  <data name="sketchmain_title.Text" xml:space="preserve">
+    <value>Bestuur sketse</value>
+  </data>
+  <data name="tagmain_add.Text" xml:space="preserve">
+    <value>Voeg nuwe merker by</value>
+  </data>
+  <data name="tagmain_note.Text" xml:space="preserve">
+    <value>Voeg nota by</value>
+  </data>
+  <data name="tagmain_sketch.Text" xml:space="preserve">
+    <value>Voeg skets by</value>
+  </data>
+  <data name="tagmain_title.Text" xml:space="preserve">
+    <value>My Merkers</value>
+  </data>
+  <data name="tagview_assign.Text" xml:space="preserve">
+    <value>Ken toe aan Notaboek</value>
+  </data>
+  <data name="tag_add_note.Header" xml:space="preserve">
+    <value>Let wel</value>
+  </data>
+  <data name="tag_add_note.PlaceholderText" xml:space="preserve">
+    <value>Kies 'n nota</value>
+  </data>
+  <data name="tag_add_sketch.Header" xml:space="preserve">
+    <value>Skets</value>
+  </data>
+  <data name="tag_add_sketch.PlaceholderText" xml:space="preserve">
+    <value>Kies 'n skets</value>
+  </data>
+  <data name="verify.PrimaryButtonText" xml:space="preserve">
+    <value>Verifieer</value>
+  </data>
+  <data name="verify.SecondaryButtonText" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="verify.Title" xml:space="preserve">
+    <value>Verifieer kode</value>
+  </data>
+  <data name="verify_numbox.Header" xml:space="preserve">
+    <value>Tik asseblief die ses syferkode in wat jy in jou e-pos ontvang het om voort te gaan</value>
+  </data>
+</root>

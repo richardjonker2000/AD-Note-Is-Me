@@ -1,0 +1,106 @@
+﻿<Page
+    x:Class="NoteIsMe.UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NoteIsMe.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:fa="using:FontAwesome.UWP"
+    mc:Ignorable="d"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    Background="{ThemeResource SystemControlAcrylicElementBrush}">
+    
+
+    <Grid>
+        <Grid.Resources>
+            <SolidColorBrush x:Key="NavigationViewExpandedPaneBackground" Color="{ThemeResource SystemControlAcrylicWindowBrush}"/>
+            <SolidColorBrush x:Key="NavigationViewDefaultPaneBackground" Color="{ThemeResource SystemControlAcrylicWindowBrush}" />
+            <SolidColorBrush x:Key="NavigationViewSelectionIndicatorForeground" Color="Yellow" />
+            <SolidColorBrush x:Key="NavigationViewItemBackgroundSelected" Color="{ThemeResource SystemAccentColor}" />
+        </Grid.Resources>
+
+
+
+        <muxc:NavigationView x:Name="MainMenu" ItemInvoked="MainMenu_ItemInvoked" IsBackEnabled="True" BackRequested="MainMenu_BackRequested">
+            <muxc:NavigationView.AutoSuggestBox>
+                <AutoSuggestBox QueryIcon="Find" AutomationProperties.Name="Search" TextChanged="AutoSuggestBox_TextChanged" SuggestionChosen="AutoSuggestBox_SuggestionChosen"/>
+            </muxc:NavigationView.AutoSuggestBox>
+
+            <muxc:NavigationView.MenuItems>
+                <muxc:NavigationViewItem x:Uid="mainpage_home" Content="Home" Tag="home" x:Name="HomeMenuItem">
+                    <muxc:NavigationViewItem.Icon>
+                        <fa:FontAwesome Icon="Home" />
+                    </muxc:NavigationViewItem.Icon>
+                </muxc:NavigationViewItem>
+
+                <muxc:NavigationViewItem  x:Uid="mainpage_newnote" Content="New Note" Tag="newnote" x:Name="NewNoteMenuItem">
+                    <muxc:NavigationViewItem.Icon>
+                        <fa:FontAwesome Icon="Edit" />
+                    </muxc:NavigationViewItem.Icon>
+                </muxc:NavigationViewItem>
+
+                <muxc:NavigationViewItem  x:Uid="mainpage_note" Content="Note" Tag="note" x:Name="NoteMenuItem">
+                    <muxc:NavigationViewItem.Icon>
+                        <fa:FontAwesome Icon="Clipboard" />
+                    </muxc:NavigationViewItem.Icon>
+                </muxc:NavigationViewItem>
+
+                <muxc:NavigationViewItem x:Uid="mainpage_sketch" Content="Sketch" Tag="sketch" x:Name="SketchMenuItem">
+                    <muxc:NavigationViewItem.Icon>
+                        <fa:FontAwesome Icon="PictureOutline" />
+                    </muxc:NavigationViewItem.Icon>
+                </muxc:NavigationViewItem>
+
+                <muxc:NavigationViewItem x:Uid="mainpage_notebook" Content="Notebook" Tag="notebook" x:Name="NotebookMenuItem">
+                    <muxc:NavigationViewItem.Icon>
+                        <fa:FontAwesome Icon="Book" />
+                    </muxc:NavigationViewItem.Icon>
+                </muxc:NavigationViewItem>
+
+                <muxc:NavigationViewItem x:Uid="mainpage_tag" Content="Tag" Tag="tag" x:Name="TagMenuItem">
+                    <muxc:NavigationViewItem.Icon>
+                        <fa:FontAwesome Icon="Tags" />
+                    </muxc:NavigationViewItem.Icon>
+                </muxc:NavigationViewItem>
+
+                <muxc:NavigationViewItem x:Uid="mainpage_folder" Content="Folder" Tag="folder" x:Name="FolderMenuItem">
+                    <muxc:NavigationViewItem.Icon>
+                        <fa:FontAwesome Icon="Folder" />
+                    </muxc:NavigationViewItem.Icon>
+                </muxc:NavigationViewItem>
+            </muxc:NavigationView.MenuItems>
+
+
+            <muxc:NavigationView.FooterMenuItems>
+                <muxc:NavigationViewItem x:Uid="mainpage_admin" Content="Admin Panel" Tag="admin" x:Name="AdminMenuItem" Visibility="Collapsed">
+                    <muxc:NavigationViewItem.Icon>
+                        <fa:FontAwesome Icon="Shield" />
+                    </muxc:NavigationViewItem.Icon>
+                </muxc:NavigationViewItem>
+
+                <muxc:NavigationViewItem x:Uid="mainpage_profile" Content="Profile" Tag="profile" x:Name="ProfileMenuItem">
+                    <muxc:NavigationViewItem.Icon>
+                        <fa:FontAwesome Icon="User" />
+                    </muxc:NavigationViewItem.Icon>
+                </muxc:NavigationViewItem>
+
+                <muxc:NavigationViewItem x:Uid="mainpage_logout" Content="Log Out" x:Name="logout" Tag="logout" Tapped="logout_Tapped">
+                    <muxc:NavigationViewItem.Icon>
+                        <fa:FontAwesome Icon="SignOut" />
+                    </muxc:NavigationViewItem.Icon>
+                </muxc:NavigationViewItem>
+
+                <muxc:NavigationViewItem x:Uid="mainpage_login" Content="Log In" x:Name="login"  Tag="login" Tapped="login_Tapped">
+                    <muxc:NavigationViewItem.Icon>
+                        <fa:FontAwesome Icon="SignIn" />
+                    </muxc:NavigationViewItem.Icon>
+                </muxc:NavigationViewItem>
+            </muxc:NavigationView.FooterMenuItems>
+            
+
+            <Frame x:Name="ContentFrame" Navigating="OnNavigatingToPage"/>
+        </muxc:NavigationView>
+
+
+    </Grid>
+</Page>

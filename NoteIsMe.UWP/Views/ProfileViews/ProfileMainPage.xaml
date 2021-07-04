@@ -1,0 +1,71 @@
+﻿<Page
+    x:Class="NoteIsMe.UWP.Views.ProfileViews.ProfileMainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NoteIsMe.UWP.Views.ProfileViews"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="25,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+       
+
+            <TextBlock x:Uid="profile_title" Margin="25" HorizontalAlignment="Center" Grid.Row="0" Text="My Profile" Style="{StaticResource HeaderTextBlockStyle}"/>
+
+
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Image x:Name="profilePic" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="300" Height="300" Source="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/26/3c/87.jpg"/>
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <StackPanel Grid.Row="0" Margin="25,5,5,30" >
+                            <TextBox x:Uid="profile_name" x:Name="userName" Header="Username:" Text="{x:Bind userViewModel.CurrentUser.Name, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+
+                        </StackPanel>
+
+                        <StackPanel Grid.Row="1"  Margin="25,5,5,30" >
+                            <TextBox Header="E-mail:" IsReadOnly="True" Text="{x:Bind userViewModel.CurrentUser.Email}"/>
+
+                        </StackPanel>
+                        <StackPanel Grid.Row="2"  Margin="25,5,5,30" >
+                            <TextBlock x:Uid="profile_passwordchange" Grid.Row="0" Text="Change your password:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,5,10"/>
+                        <Button x:Uid="profile_passwordreset" x:Name="ResetPassword" Style="{StaticResource AccentButtonStyle}" Content="Reset Password" HorizontalAlignment="Left" Click="ResetPassword_Click"/>
+
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <CommandBar HorizontalAlignment="Center" VerticalAlignment="Top" Background="Transparent" Grid.Row="3" DefaultLabelPosition="Right">
+                <AppBarButton x:Uid="profile_save" x:Name="Save" Icon="Save" Label="Save" ToolTipService.ToolTip="Save the data" Click="Save_Click"/>
+            <AppBarButton x:Uid="profile_cancel" x:Name="Cancel" Icon="Cancel" Label="Cancel" ToolTipService.ToolTip="Cancel the input (go back)" Click="Cancel_Click"/>
+            </CommandBar>
+        
+    </Grid>
+
+
+
+</Page>
